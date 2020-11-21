@@ -100,6 +100,9 @@
     <Compile Include="Personagem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmComoJogar.resx">
+      <DependentUpon>frmComoJogar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEscolhaPersonagem.resx">
       <DependentUpon>frmEscolhaPersonagem.cs</DependentUpon>
     </EmbeddedResource>
