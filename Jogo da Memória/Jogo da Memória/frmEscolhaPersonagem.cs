@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Jogo_da_Memória
 {
-    public partial class Form1 : Form
+    public partial class frmEscolhaPersonagem : Form
     {
-        public Form1()
+        public frmEscolhaPersonagem()
         {
             InitializeComponent();
         }
