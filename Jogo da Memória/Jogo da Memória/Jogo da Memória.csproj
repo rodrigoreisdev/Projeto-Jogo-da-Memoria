@@ -79,6 +79,7 @@
     <Compile Include="FrmSelecionarFase.Designer.cs">
       <DependentUpon>FrmSelecionarFase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Personagem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmEscolhaPersonagem.resx">
