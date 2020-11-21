@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Jogo_da_Memória
 {
-    class Personagem
+    public class Personagem
     {
         string nome;
         string fala;
