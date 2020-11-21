@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace Jogo_da_Memória
 {
-    class Personagem
+    public class Personagem
     {
         public string Nome { get; set; }
         public PictureBox FalaInicio { get; set; }

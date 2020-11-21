@@ -64,6 +64,7 @@
             // cmdFase4
             // 
             this.cmdFase4.BackColor = System.Drawing.Color.Turquoise;
+            this.cmdFase4.Enabled = false;
             this.cmdFase4.Font = new System.Drawing.Font("Milky Nice", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdFase4.ForeColor = System.Drawing.Color.Black;
             this.cmdFase4.Location = new System.Drawing.Point(11, 171);
@@ -73,10 +74,12 @@
             this.cmdFase4.Text = "Fase 4";
             this.cmdFase4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.cmdFase4.UseVisualStyleBackColor = false;
+            this.cmdFase4.Click += new System.EventHandler(this.cmdFase4_Click);
             // 
             // cmdFase3
             // 
             this.cmdFase3.BackColor = System.Drawing.Color.Turquoise;
+            this.cmdFase3.Enabled = false;
             this.cmdFase3.Font = new System.Drawing.Font("Milky Nice", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdFase3.ForeColor = System.Drawing.Color.Black;
             this.cmdFase3.Location = new System.Drawing.Point(11, 115);
@@ -86,10 +89,12 @@
             this.cmdFase3.Text = "Fase 3";
             this.cmdFase3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.cmdFase3.UseVisualStyleBackColor = false;
+            this.cmdFase3.Click += new System.EventHandler(this.cmdFase3_Click);
             // 
             // cmdFase2
             // 
             this.cmdFase2.BackColor = System.Drawing.Color.Turquoise;
+            this.cmdFase2.Enabled = false;
             this.cmdFase2.Font = new System.Drawing.Font("Milky Nice", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdFase2.ForeColor = System.Drawing.Color.Black;
             this.cmdFase2.Location = new System.Drawing.Point(11, 60);
@@ -99,10 +104,12 @@
             this.cmdFase2.Text = "Fase 2";
             this.cmdFase2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.cmdFase2.UseVisualStyleBackColor = false;
+            this.cmdFase2.Click += new System.EventHandler(this.cmdFase2_Click);
             // 
             // cmdFase1
             // 
             this.cmdFase1.BackColor = System.Drawing.Color.Turquoise;
+            this.cmdFase1.Enabled = false;
             this.cmdFase1.Font = new System.Drawing.Font("Milky Nice", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdFase1.ForeColor = System.Drawing.Color.Black;
             this.cmdFase1.Location = new System.Drawing.Point(11, 6);
@@ -112,6 +119,7 @@
             this.cmdFase1.Text = "Fase 1";
             this.cmdFase1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.cmdFase1.UseVisualStyleBackColor = false;
+            this.cmdFase1.Click += new System.EventHandler(this.cmdFase1_Click);
             // 
             // FrmSelecionarFase
             // 
@@ -123,6 +131,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonSelecioneONivel);
             this.Name = "FrmSelecionarFase";
+            this.Load += new System.EventHandler(this.FrmSelecionarFase_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
