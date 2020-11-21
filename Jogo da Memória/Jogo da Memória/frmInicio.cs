@@ -12,9 +12,24 @@ namespace Jogo_da_Memória
 {
     public partial class frmInicio : Form
     {
+        //frmComoJogar cj;
+        frmEscolhaPersonagem ep;
         public frmInicio()
         {
             InitializeComponent();
+        }
+
+        private void cmdSair_Click(object sender, EventArgs e) {
+            this.Close();
+        }
+
+        private void cmdComoJogar_Click(object sender, EventArgs e) {
+            //cj = new frmComoJogar();
+        }
+
+        private void cmdJogar_Click(object sender, EventArgs e) {
+            ep = new frmEscolhaPersonagem();
+            ep.ShowDialog();
         }
     }
 }
