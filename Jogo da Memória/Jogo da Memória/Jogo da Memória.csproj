@@ -61,17 +61,29 @@
     <Compile Include="frmEscolhaPersonagem.Designer.cs">
       <DependentUpon>frmEscolhaPersonagem.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGanhou.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGanhou.Designer.cs">
+      <DependentUpon>FrmGanhou.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmInicio.Designer.cs">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmParabens.cs">
+    <Compile Include="FrmJogo1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmParabens.Designer.cs">
-      <DependentUpon>frmParabens.cs</DependentUpon>
+    <Compile Include="FrmJogo1.Designer.cs">
+      <DependentUpon>FrmJogo1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPerdeu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPerdeu.Designer.cs">
+      <DependentUpon>FrmPerdeu.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmSelecionarFase.cs">
       <SubType>Form</SubType>
@@ -79,16 +91,23 @@
     <Compile Include="FrmSelecionarFase.Designer.cs">
       <DependentUpon>FrmSelecionarFase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Personagem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmEscolhaPersonagem.resx">
       <DependentUpon>frmEscolhaPersonagem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmGanhou.resx">
+      <DependentUpon>FrmGanhou.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmParabens.resx">
-      <DependentUpon>frmParabens.cs</DependentUpon>
+    <EmbeddedResource Include="FrmJogo1.resx">
+      <DependentUpon>FrmJogo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPerdeu.resx">
+      <DependentUpon>FrmPerdeu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSelecionarFase.resx">
       <DependentUpon>FrmSelecionarFase.cs</DependentUpon>
