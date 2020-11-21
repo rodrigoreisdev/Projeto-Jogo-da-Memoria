@@ -67,6 +67,12 @@
     <Compile Include="frmInicio.Designer.cs">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmParabens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmParabens.Designer.cs">
+      <DependentUpon>frmParabens.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmSelecionarFase.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmParabens.resx">
+      <DependentUpon>frmParabens.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSelecionarFase.resx">
       <DependentUpon>FrmSelecionarFase.cs</DependentUpon>
