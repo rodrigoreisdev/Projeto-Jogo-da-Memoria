@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmComoJogar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComoJogar.Designer.cs">
+      <DependentUpon>frmComoJogar.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEscolhaPersonagem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,12 +97,6 @@
     <Compile Include="FrmSelecionarFase.Designer.cs">
       <DependentUpon>FrmSelecionarFase.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTutorial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmTutorial.Designer.cs">
-      <DependentUpon>frmTutorial.cs</DependentUpon>
-    </Compile>
     <Compile Include="Personagem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -117,9 +117,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSelecionarFase.resx">
       <DependentUpon>FrmSelecionarFase.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmTutorial.resx">
-      <DependentUpon>frmTutorial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
