@@ -32,7 +32,6 @@ namespace Jogo_da_Memória
             label1.Text = "6"; //Label Displaying the time before cards are flipped to Cover mode
             foreach (PictureBox picture in GamePanel.Controls)
             {
-
                 picture.Enabled = false;
                 points.Add(picture.Location);
             }
@@ -57,7 +56,7 @@ namespace Jogo_da_Memória
             img5.Image = Properties.Resources.img5;
             dupimg5.Image = Properties.Resources.img5;
             img6.Image = Properties.Resources.img6;
-            dupimg6.Image = Properties.Resources.img6;
+            dupimg6.Image = Properties.Resources.img6; 
         }
 
         private void resetButton_Click(object sender, EventArgs e)
@@ -245,7 +244,7 @@ namespace Jogo_da_Memória
 
             }
 
-            if (FlippedCount == 10)
+            if (FlippedCount == 6)
             {   //if all images are flipped over then reset the count value and call changeLevel() to check and go to the next level
                 FlippedCount = 0;
                 changeLevel();
