@@ -33,3 +33,24 @@ C:\Users\Usuario\Desktop\Projeto_Interface\Projeto-Jogo-da-Memoria\Jogo da Memó
 C:\Users\Usuario\Desktop\Projeto_Interface\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csproj.CopyComplete
 C:\Users\Usuario\Desktop\Projeto_Interface\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.exe
 C:\Users\Usuario\Desktop\Projeto_Interface\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.pdb
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Debug\Jogo da Memória.exe.config
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Debug\Jogo da Memória.exe
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Debug\Jogo da Memória.pdb
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Debug\MetroFramework.Design.dll
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Debug\MetroFramework.dll
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Debug\MetroFramework.Fonts.dll
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csprojAssemblyReference.cache
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmEscolhaPersonagem.resources
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmGanhou.resources
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmInicio.resources
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmJogo1.resources
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmPerdeu.resources
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmSelecionarFase.resources
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmComoJogar.resources
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.Game.resources
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.Properties.Resources.resources
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csproj.GenerateResource.cache
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csproj.CoreCompileInputs.cache
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csproj.CopyComplete
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.exe
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.pdb

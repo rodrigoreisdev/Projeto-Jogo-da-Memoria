@@ -98,6 +98,7 @@
             this.img5.TabIndex = 51;
             this.img5.TabStop = false;
             this.img5.Tag = "5";
+            this.img5.Click += new System.EventHandler(this.img5_Click);
             // 
             // dupimg5
             // 
@@ -108,6 +109,7 @@
             this.dupimg5.TabIndex = 49;
             this.dupimg5.TabStop = false;
             this.dupimg5.Tag = "5";
+            this.dupimg5.Click += new System.EventHandler(this.dupimg5_Click);
             // 
             // img4
             // 
@@ -118,6 +120,7 @@
             this.img4.TabIndex = 47;
             this.img4.TabStop = false;
             this.img4.Tag = "4";
+            this.img4.Click += new System.EventHandler(this.img4_Click);
             // 
             // dupimg4
             // 
@@ -128,6 +131,7 @@
             this.dupimg4.TabIndex = 45;
             this.dupimg4.TabStop = false;
             this.dupimg4.Tag = "4";
+            this.dupimg4.Click += new System.EventHandler(this.dupimg4_Click);
             // 
             // img3
             // 
@@ -138,6 +142,7 @@
             this.img3.TabIndex = 43;
             this.img3.TabStop = false;
             this.img3.Tag = "3";
+            this.img3.Click += new System.EventHandler(this.img3_Click);
             // 
             // dupimg3
             // 
@@ -148,6 +153,7 @@
             this.dupimg3.TabIndex = 41;
             this.dupimg3.TabStop = false;
             this.dupimg3.Tag = "3";
+            this.dupimg3.Click += new System.EventHandler(this.dupimg3_Click);
             // 
             // img2
             // 
@@ -158,6 +164,7 @@
             this.img2.TabIndex = 39;
             this.img2.TabStop = false;
             this.img2.Tag = "2";
+            this.img2.Click += new System.EventHandler(this.img2_Click);
             // 
             // dupimg2
             // 
@@ -168,6 +175,7 @@
             this.dupimg2.TabIndex = 37;
             this.dupimg2.TabStop = false;
             this.dupimg2.Tag = "2";
+            this.dupimg2.Click += new System.EventHandler(this.dupimg2_Click);
             // 
             // img1
             // 
@@ -178,6 +186,7 @@
             this.img1.TabIndex = 35;
             this.img1.TabStop = false;
             this.img1.Tag = "1";
+            this.img1.Click += new System.EventHandler(this.img1_Click);
             // 
             // img6
             // 
@@ -188,6 +197,7 @@
             this.img6.TabIndex = 34;
             this.img6.TabStop = false;
             this.img6.Tag = "6";
+            this.img6.Click += new System.EventHandler(this.img6_Click);
             // 
             // dupimg1
             // 
@@ -198,6 +208,7 @@
             this.dupimg1.TabIndex = 33;
             this.dupimg1.TabStop = false;
             this.dupimg1.Tag = "1";
+            this.dupimg1.Click += new System.EventHandler(this.dupimg1_Click);
             // 
             // dupimg6
             // 
@@ -208,6 +219,7 @@
             this.dupimg6.TabIndex = 32;
             this.dupimg6.TabStop = false;
             this.dupimg6.Tag = "6";
+            this.dupimg6.Click += new System.EventHandler(this.dupimg6_Click);
             // 
             // levelValue
             // 
@@ -215,7 +227,7 @@
             this.levelValue.BackColor = System.Drawing.Color.Black;
             this.levelValue.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.levelValue.ForeColor = System.Drawing.SystemColors.Control;
-            this.levelValue.Location = new System.Drawing.Point(602, 53);
+            this.levelValue.Location = new System.Drawing.Point(570, 53);
             this.levelValue.Name = "levelValue";
             this.levelValue.Size = new System.Drawing.Size(28, 33);
             this.levelValue.TabIndex = 16;
@@ -227,7 +239,7 @@
             this.levelLabel.BackColor = System.Drawing.Color.Black;
             this.levelLabel.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.levelLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.levelLabel.Location = new System.Drawing.Point(506, 53);
+            this.levelLabel.Location = new System.Drawing.Point(482, 53);
             this.levelLabel.Name = "levelLabel";
             this.levelLabel.Size = new System.Drawing.Size(78, 33);
             this.levelLabel.TabIndex = 15;
@@ -238,7 +250,7 @@
             this.resetButton.BackColor = System.Drawing.Color.Transparent;
             this.resetButton.Font = new System.Drawing.Font("Papyrus", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.resetButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.resetButton.Location = new System.Drawing.Point(511, 161);
+            this.resetButton.Location = new System.Drawing.Point(512, 189);
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(155, 47);
             this.resetButton.TabIndex = 14;
@@ -253,7 +265,7 @@
             this.timeLeft.BackColor = System.Drawing.Color.Black;
             this.timeLeft.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.timeLeft.ForeColor = System.Drawing.SystemColors.Control;
-            this.timeLeft.Location = new System.Drawing.Point(635, 125);
+            this.timeLeft.Location = new System.Drawing.Point(626, 135);
             this.timeLeft.Name = "timeLeft";
             this.timeLeft.Size = new System.Drawing.Size(41, 33);
             this.timeLeft.TabIndex = 13;
@@ -265,7 +277,7 @@
             this.Time.BackColor = System.Drawing.Color.Black;
             this.Time.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.Time.ForeColor = System.Drawing.SystemColors.Control;
-            this.Time.Location = new System.Drawing.Point(505, 125);
+            this.Time.Location = new System.Drawing.Point(481, 135);
             this.Time.Name = "Time";
             this.Time.Size = new System.Drawing.Size(124, 33);
             this.Time.TabIndex = 12;
@@ -277,7 +289,7 @@
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Papyrus", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(505, 256);
+            this.label1.Location = new System.Drawing.Point(481, 253);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 42);
             this.label1.TabIndex = 11;
@@ -289,7 +301,7 @@
             this.ScoreCounter.BackColor = System.Drawing.Color.Black;
             this.ScoreCounter.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ScoreCounter.ForeColor = System.Drawing.SystemColors.Control;
-            this.ScoreCounter.Location = new System.Drawing.Point(601, 92);
+            this.ScoreCounter.Location = new System.Drawing.Point(577, 92);
             this.ScoreCounter.Name = "ScoreCounter";
             this.ScoreCounter.Size = new System.Drawing.Size(28, 33);
             this.ScoreCounter.TabIndex = 10;
@@ -301,7 +313,7 @@
             this.ScoreLabel.BackColor = System.Drawing.Color.Black;
             this.ScoreLabel.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ScoreLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.ScoreLabel.Location = new System.Drawing.Point(506, 92);
+            this.ScoreLabel.Location = new System.Drawing.Point(482, 92);
             this.ScoreLabel.Name = "ScoreLabel";
             this.ScoreLabel.Size = new System.Drawing.Size(89, 33);
             this.ScoreLabel.TabIndex = 9;
@@ -310,18 +322,22 @@
             // ScoreTimer
             // 
             this.ScoreTimer.Interval = 3000;
+            this.ScoreTimer.Tick += new System.EventHandler(this.ScoreTimer_Tick);
             // 
             // CountdownTimer
             // 
             this.CountdownTimer.Interval = 1000;
+            this.CountdownTimer.Tick += new System.EventHandler(this.CountdownTimer_Tick);
             // 
             // FlipTime
             // 
-            this.FlipTime.Interval = 300;
+            this.FlipTime.Interval = 500;
+            this.FlipTime.Tick += new System.EventHandler(this.FlipTime_Tick);
             // 
             // TimeRemaining
             // 
             this.TimeRemaining.Interval = 1000;
+            this.TimeRemaining.Tick += new System.EventHandler(this.TimeRemaining_Tick);
             // 
             // Game
             // 
