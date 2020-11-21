@@ -192,7 +192,7 @@ namespace Jogo_da_Memória {
             // 
             this.panel4.Location = new System.Drawing.Point(19, 12);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(258, 417);
+            this.panel4.Size = new System.Drawing.Size(247, 407);
             this.panel4.TabIndex = 9;
             // 
             // panel2
