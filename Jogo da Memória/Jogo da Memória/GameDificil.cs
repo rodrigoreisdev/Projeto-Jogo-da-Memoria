@@ -10,8 +10,13 @@ using System.Windows.Forms;
 
 namespace Jogo_da_Memória
 {
-    public partial class Game : Form
+    public partial class GameDificil : Form
     {
+        public GameDificil()
+        {
+            InitializeComponent();
+        }
+
         //Initialise Variables 
         Random location = new Random(); //Changes Location randomly 
         List<Point> points = new List<Point>(); // To Store Location of Images
@@ -22,12 +27,7 @@ namespace Jogo_da_Memória
         int TimeLevel = 60;
         int Score = 0;
 
-        public Game()
-        {
-            InitializeComponent();
-        }
-
-        private void Game_Load(object sender, EventArgs e)
+        private void GameDificil_Load(object sender, EventArgs e)
         {
             label1.Text = "6"; //Label Displaying the time before cards are flipped to Cover mode
             foreach (PictureBox picture in GamePanel.Controls)
@@ -56,7 +56,11 @@ namespace Jogo_da_Memória
             img5.Image = Properties.Resources.img5;
             dupimg5.Image = Properties.Resources.img5;
             img6.Image = Properties.Resources.img6;
-            dupimg6.Image = Properties.Resources.img6; 
+            dupimg6.Image = Properties.Resources.img6;
+            img7.Image = Properties.Resources.img7;
+            dupimg7.Image = Properties.Resources.img7;
+            img8.Image = Properties.Resources.img8;
+            dupimg8.Image = Properties.Resources.img8;
         }
 
         private void resetButton_Click(object sender, EventArgs e)
@@ -68,47 +72,17 @@ namespace Jogo_da_Memória
             timeLeft.Text = "60";
             levelValue.Text = "1";
             //Restarting the game
-            Game_Load(sender, e);
+            GameDificil_Load(sender, e);
         }
 
-        private void ScoreTimer_Tick(object sender, EventArgs e)
+        private void FlipTime_Tick(object sender, EventArgs e)
         {
-            ScoreTimer.Stop();
-            foreach (PictureBox picture in GamePanel.Controls)
-            {   //Switching all cards back to cover mode
-                picture.Enabled = true;
-                picture.Cursor = Cursors.Hand;
-                picture.Image = Properties.Resources.cover;
-            }
-        }
-
-        private void CountdownTimer_Tick(object sender, EventArgs e)
-        {
-            //Countdown timer for image display in the beginning of the game
-            int timer = Convert.ToInt32(label1.Text);
-            timer -= 1;
-            label1.Text = Convert.ToString(timer);
-            if (timer == 0)
-            {
-                CountdownTimer.Stop();
-                TimeRemaining.Start();
-            }
-        }
-
-        private void TimeRemaining_Tick(object sender, EventArgs e)
-        {
-            //Timer to show how much time is left to complete the level
-            int timer = Convert.ToInt32(timeLeft.Text);
-            timer -= 1;
-            timeLeft.Text = Convert.ToString(timer);
-            if (timer == 0)
-            {
-                TimeRemaining.Stop();
-                MessageBox.Show("You Scored " + ScoreCounter.Text + " at level : " + levelValue.Text);
-                ScoreCounter.Text = "0";
-                resetButton.BackColor = Color.Red;
-                resetButton.Text = "Play Again?";
-            }
+            //Timer to flip back images to cover image
+            FlipTime.Stop();
+            FlippedImage1.Image = Properties.Resources.cover;
+            FlippedImage2.Image = Properties.Resources.cover;
+            FlippedImage1 = null;
+            FlippedImage2 = null;
         }
 
         private void changeLevel()
@@ -128,7 +102,7 @@ namespace Jogo_da_Memória
                     MessageBox.Show("Thanks for Playing! You've completed the game");
                     Application.Exit();
                 }
-                Game_Load(this, null);
+                GameDificil_Load(this, null);
             }
             else
             {
@@ -138,7 +112,47 @@ namespace Jogo_da_Memória
             }
         }
 
+        private void checkImages(PictureBox pic1, PictureBox pic2)
+        {
+            //Check if images are the same in both the PictureBoxes
+
+            if (FlippedImage1 == null)
+            {
+                FlippedImage1 = pic1;
+            }
+            else if (FlippedImage1 != null && FlippedImage2 == null)
+            {
+                if (FlippedImage1 != pic1)
+                    FlippedImage2 = pic1;
+            }
+            if (FlippedImage1 != null && FlippedImage2 != null)
+            {
+                if (FlippedImage1.Tag == FlippedImage2.Tag)
+                {
+                    FlippedImage1 = null;   //Reassigning to null for the next set of values
+                    FlippedImage2 = null;   //Same as above
+                    pic2.Enabled = false;   //To avoid clicking the image
+                    pic1.Enabled = false;   //Same as above
+                    ++FlippedCount;         //To check if the game is over by checking if all images have been flipped
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10); //Score Increment if there is a correct match
+                }
+                else
+                {
+                    FlipTime.Start();
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) - 5); //Score Decrement if there is a wrong match
+                }
+
+            }
+
+            if (FlippedCount == 8)
+            {   //if all images are flipped over then reset the count value and call changeLevel() to check and go to the next level
+                FlippedCount = 0;
+                changeLevel();
+            }
+        }
+
         #region Cartas
+
         private void img1_Click(object sender, EventArgs e)
         {
             img1.Image = Properties.Resources.img1;
@@ -173,6 +187,18 @@ namespace Jogo_da_Memória
         {
             img6.Image = Properties.Resources.img6;
             checkImages(img6, dupimg6);
+        }
+
+        private void img7_Click(object sender, EventArgs e)
+        {
+            img7.Image = Properties.Resources.img7;
+            checkImages(img7, dupimg7);
+        }
+
+        private void img8_Click(object sender, EventArgs e)
+        {
+            img8.Image = Properties.Resources.img8;
+            checkImages(img8, dupimg8);
         }
 
         private void dupimg1_Click(object sender, EventArgs e)
@@ -210,55 +236,59 @@ namespace Jogo_da_Memória
             dupimg6.Image = Properties.Resources.img6;
             checkImages(dupimg6, img6);
         }
+
+        private void dupimg7_Click(object sender, EventArgs e)
+        {
+            dupimg7.Image = Properties.Resources.img7;
+            checkImages(dupimg7, img7);
+        }
+
+        private void dupimg8_Click(object sender, EventArgs e)
+        {
+            dupimg8.Image = Properties.Resources.img8;
+            checkImages(dupimg8, img8);
+        }
+
         #endregion
 
-        private void checkImages(PictureBox pic1, PictureBox pic2)
+        private void TimeRemaining_Tick(object sender, EventArgs e)
         {
-            //Check if images are the same in both the PictureBoxes
-
-            if (FlippedImage1 == null)
+            //Timer to show how much time is left to complete the level
+            int timer = Convert.ToInt32(timeLeft.Text);
+            timer -= 1;
+            timeLeft.Text = Convert.ToString(timer);
+            if (timer == 0)
             {
-                FlippedImage1 = pic1;
-            }
-            else if (FlippedImage1 != null && FlippedImage2 == null)
-            {
-                if (FlippedImage1 != pic1)
-                    FlippedImage2 = pic1;
-            }
-            if (FlippedImage1 != null && FlippedImage2 != null)
-            {
-                if (FlippedImage1.Tag == FlippedImage2.Tag)
-                {
-                    FlippedImage1 = null;   //Reassigning to null for the next set of values
-                    FlippedImage2 = null;   //Same as above
-                    pic2.Enabled = false;   //To avoid clicking the image
-                    pic1.Enabled = false;   //Same as above
-                    ++FlippedCount;         //To check if the game is over by checking if all images have been flipped
-                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10); //Score Increment if there is a correct match
-                }
-                else
-                {
-                    FlipTime.Start();
-                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) - 5); //Score Decrement if there is a wrong match
-                }
-
-            }
-
-            if (FlippedCount == 6)
-            {   //if all images are flipped over then reset the count value and call changeLevel() to check and go to the next level
-                FlippedCount = 0;
-                changeLevel();
+                TimeRemaining.Stop();
+                MessageBox.Show("You Scored " + ScoreCounter.Text + " at level : " + levelValue.Text);
+                ScoreCounter.Text = "0";
+                resetButton.BackColor = Color.Red;
+                resetButton.Text = "Play Again?";
             }
         }
 
-        private void FlipTime_Tick(object sender, EventArgs e)
+        private void CountdownTimer_Tick(object sender, EventArgs e)
         {
-            //Timer to flip back images to cover image
-            FlipTime.Stop();
-            FlippedImage1.Image = Properties.Resources.cover;
-            FlippedImage2.Image = Properties.Resources.cover;
-            FlippedImage1 = null;
-            FlippedImage2 = null;
+            //Countdown timer for image display in the beginning of the game
+            int timer = Convert.ToInt32(label1.Text);
+            timer -= 1;
+            label1.Text = Convert.ToString(timer);
+            if (timer == 0)
+            {
+                CountdownTimer.Stop();
+                TimeRemaining.Start();
+            }
+        }
+
+        private void ScoreTimer_Tick(object sender, EventArgs e)
+        {
+            ScoreTimer.Stop();
+            foreach (PictureBox picture in GamePanel.Controls)
+            {   //Switching all cards back to cover mode
+                picture.Enabled = true;
+                picture.Cursor = Cursors.Hand;
+                picture.Image = Properties.Resources.cover;
+            }
         }
     }
 }

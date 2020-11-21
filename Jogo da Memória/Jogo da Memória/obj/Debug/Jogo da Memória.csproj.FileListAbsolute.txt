@@ -47,10 +47,12 @@ D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debu
 D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmPerdeu.resources
 D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmSelecionarFase.resources
 D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmComoJogar.resources
-D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.Game.resources
 D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.Properties.Resources.resources
 D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csproj.GenerateResource.cache
 D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csproj.CoreCompileInputs.cache
 D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csproj.CopyComplete
 D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.exe
 D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.pdb
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.GameFacil.resources
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.GameDificil.resources
+D:\Git_Github\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.GameMedio.resources
