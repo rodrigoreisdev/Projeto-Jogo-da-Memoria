@@ -160,7 +160,7 @@ namespace Jogo_da_Memória {
             // 
             this.pictureBox17.Location = new System.Drawing.Point(389, 260);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(64, 97);
+            this.pictureBox17.Size = new System.Drawing.Size(94, 97);
             this.pictureBox17.TabIndex = 16;
             this.pictureBox17.TabStop = false;
             // 
@@ -168,7 +168,7 @@ namespace Jogo_da_Memória {
             // 
             this.pictureBox16.Location = new System.Drawing.Point(196, 260);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(64, 97);
+            this.pictureBox16.Size = new System.Drawing.Size(94, 97);
             this.pictureBox16.TabIndex = 15;
             this.pictureBox16.TabStop = false;
             // 
@@ -176,7 +176,7 @@ namespace Jogo_da_Memória {
             // 
             this.pictureBox12.Location = new System.Drawing.Point(389, 62);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(64, 97);
+            this.pictureBox12.Size = new System.Drawing.Size(94, 97);
             this.pictureBox12.TabIndex = 11;
             this.pictureBox12.TabStop = false;
             // 
@@ -184,7 +184,7 @@ namespace Jogo_da_Memória {
             // 
             this.pictureBox11.Location = new System.Drawing.Point(196, 62);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(64, 97);
+            this.pictureBox11.Size = new System.Drawing.Size(94, 97);
             this.pictureBox11.TabIndex = 10;
             this.pictureBox11.TabStop = false;
             // 
