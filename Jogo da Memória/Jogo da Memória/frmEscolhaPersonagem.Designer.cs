@@ -34,7 +34,6 @@ namespace Jogo_da_Memória
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -45,11 +44,11 @@ namespace Jogo_da_Memória
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(654, 587);
+            this.label2.Location = new System.Drawing.Point(686, 587);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 31);
+            this.label2.Size = new System.Drawing.Size(53, 31);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Xandão";
+            this.label2.Text = "Ivy";
             // 
             // label1
             // 
@@ -74,6 +73,7 @@ namespace Jogo_da_Memória
             this.pictureBox2.Size = new System.Drawing.Size(280, 342);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -86,6 +86,7 @@ namespace Jogo_da_Memória
             this.pictureBox1.Size = new System.Drawing.Size(280, 342);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label3
             // 
@@ -99,15 +100,6 @@ namespace Jogo_da_Memória
             this.label3.TabIndex = 1;
             this.label3.Text = "Escolha seu amigo";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(131, 114);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 17);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "label4";
-            // 
             // frmEscolhaPersonagem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -115,7 +107,6 @@ namespace Jogo_da_Memória
             this.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.back2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1021, 651);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -137,6 +128,5 @@ namespace Jogo_da_Memória
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
     }
 }
