@@ -1,6 +1,6 @@
 ﻿namespace Jogo_da_Memória
 {
-    partial class Game
+    partial class GameMedio
     {
         /// <summary>
         /// Required designer variable.
@@ -86,12 +86,12 @@
             this.GamePanel.Controls.Add(this.dupimg6);
             this.GamePanel.Location = new System.Drawing.Point(22, 25);
             this.GamePanel.Name = "GamePanel";
-            this.GamePanel.Size = new System.Drawing.Size(436, 386);
+            this.GamePanel.Size = new System.Drawing.Size(460, 384);
             this.GamePanel.TabIndex = 1;
             // 
             // img5
             // 
-            this.img5.Location = new System.Drawing.Point(18, 134);
+            this.img5.Location = new System.Drawing.Point(35, 134);
             this.img5.Name = "img5";
             this.img5.Size = new System.Drawing.Size(90, 100);
             this.img5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -102,7 +102,7 @@
             // 
             // dupimg5
             // 
-            this.dupimg5.Location = new System.Drawing.Point(210, 240);
+            this.dupimg5.Location = new System.Drawing.Point(227, 240);
             this.dupimg5.Name = "dupimg5";
             this.dupimg5.Size = new System.Drawing.Size(90, 100);
             this.dupimg5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -113,7 +113,7 @@
             // 
             // img4
             // 
-            this.img4.Location = new System.Drawing.Point(306, 28);
+            this.img4.Location = new System.Drawing.Point(323, 28);
             this.img4.Name = "img4";
             this.img4.Size = new System.Drawing.Size(90, 100);
             this.img4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -124,7 +124,7 @@
             // 
             // dupimg4
             // 
-            this.dupimg4.Location = new System.Drawing.Point(114, 240);
+            this.dupimg4.Location = new System.Drawing.Point(131, 240);
             this.dupimg4.Name = "dupimg4";
             this.dupimg4.Size = new System.Drawing.Size(90, 100);
             this.dupimg4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -135,7 +135,7 @@
             // 
             // img3
             // 
-            this.img3.Location = new System.Drawing.Point(210, 28);
+            this.img3.Location = new System.Drawing.Point(227, 28);
             this.img3.Name = "img3";
             this.img3.Size = new System.Drawing.Size(90, 100);
             this.img3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -146,7 +146,7 @@
             // 
             // dupimg3
             // 
-            this.dupimg3.Location = new System.Drawing.Point(18, 240);
+            this.dupimg3.Location = new System.Drawing.Point(35, 240);
             this.dupimg3.Name = "dupimg3";
             this.dupimg3.Size = new System.Drawing.Size(90, 100);
             this.dupimg3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -157,7 +157,7 @@
             // 
             // img2
             // 
-            this.img2.Location = new System.Drawing.Point(114, 28);
+            this.img2.Location = new System.Drawing.Point(131, 28);
             this.img2.Name = "img2";
             this.img2.Size = new System.Drawing.Size(90, 100);
             this.img2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -168,7 +168,7 @@
             // 
             // dupimg2
             // 
-            this.dupimg2.Location = new System.Drawing.Point(306, 134);
+            this.dupimg2.Location = new System.Drawing.Point(323, 134);
             this.dupimg2.Name = "dupimg2";
             this.dupimg2.Size = new System.Drawing.Size(90, 100);
             this.dupimg2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -179,7 +179,7 @@
             // 
             // img1
             // 
-            this.img1.Location = new System.Drawing.Point(18, 28);
+            this.img1.Location = new System.Drawing.Point(35, 28);
             this.img1.Name = "img1";
             this.img1.Size = new System.Drawing.Size(90, 100);
             this.img1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -190,7 +190,7 @@
             // 
             // img6
             // 
-            this.img6.Location = new System.Drawing.Point(114, 134);
+            this.img6.Location = new System.Drawing.Point(131, 134);
             this.img6.Name = "img6";
             this.img6.Size = new System.Drawing.Size(90, 100);
             this.img6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -201,7 +201,7 @@
             // 
             // dupimg1
             // 
-            this.dupimg1.Location = new System.Drawing.Point(210, 134);
+            this.dupimg1.Location = new System.Drawing.Point(227, 134);
             this.dupimg1.Name = "dupimg1";
             this.dupimg1.Size = new System.Drawing.Size(90, 100);
             this.dupimg1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -212,7 +212,7 @@
             // 
             // dupimg6
             // 
-            this.dupimg6.Location = new System.Drawing.Point(306, 240);
+            this.dupimg6.Location = new System.Drawing.Point(323, 240);
             this.dupimg6.Name = "dupimg6";
             this.dupimg6.Size = new System.Drawing.Size(90, 100);
             this.dupimg6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -227,7 +227,7 @@
             this.levelValue.BackColor = System.Drawing.Color.Black;
             this.levelValue.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.levelValue.ForeColor = System.Drawing.SystemColors.Control;
-            this.levelValue.Location = new System.Drawing.Point(570, 53);
+            this.levelValue.Location = new System.Drawing.Point(642, 53);
             this.levelValue.Name = "levelValue";
             this.levelValue.Size = new System.Drawing.Size(28, 33);
             this.levelValue.TabIndex = 16;
@@ -239,7 +239,7 @@
             this.levelLabel.BackColor = System.Drawing.Color.Black;
             this.levelLabel.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.levelLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.levelLabel.Location = new System.Drawing.Point(482, 53);
+            this.levelLabel.Location = new System.Drawing.Point(554, 53);
             this.levelLabel.Name = "levelLabel";
             this.levelLabel.Size = new System.Drawing.Size(78, 33);
             this.levelLabel.TabIndex = 15;
@@ -250,7 +250,7 @@
             this.resetButton.BackColor = System.Drawing.Color.Transparent;
             this.resetButton.Font = new System.Drawing.Font("Papyrus", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.resetButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.resetButton.Location = new System.Drawing.Point(512, 189);
+            this.resetButton.Location = new System.Drawing.Point(584, 189);
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(155, 47);
             this.resetButton.TabIndex = 14;
@@ -265,7 +265,7 @@
             this.timeLeft.BackColor = System.Drawing.Color.Black;
             this.timeLeft.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.timeLeft.ForeColor = System.Drawing.SystemColors.Control;
-            this.timeLeft.Location = new System.Drawing.Point(626, 135);
+            this.timeLeft.Location = new System.Drawing.Point(698, 135);
             this.timeLeft.Name = "timeLeft";
             this.timeLeft.Size = new System.Drawing.Size(41, 33);
             this.timeLeft.TabIndex = 13;
@@ -277,7 +277,7 @@
             this.Time.BackColor = System.Drawing.Color.Black;
             this.Time.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.Time.ForeColor = System.Drawing.SystemColors.Control;
-            this.Time.Location = new System.Drawing.Point(481, 135);
+            this.Time.Location = new System.Drawing.Point(553, 135);
             this.Time.Name = "Time";
             this.Time.Size = new System.Drawing.Size(124, 33);
             this.Time.TabIndex = 12;
@@ -289,7 +289,7 @@
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Papyrus", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(481, 253);
+            this.label1.Location = new System.Drawing.Point(553, 253);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 42);
             this.label1.TabIndex = 11;
@@ -301,7 +301,7 @@
             this.ScoreCounter.BackColor = System.Drawing.Color.Black;
             this.ScoreCounter.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ScoreCounter.ForeColor = System.Drawing.SystemColors.Control;
-            this.ScoreCounter.Location = new System.Drawing.Point(577, 92);
+            this.ScoreCounter.Location = new System.Drawing.Point(649, 92);
             this.ScoreCounter.Name = "ScoreCounter";
             this.ScoreCounter.Size = new System.Drawing.Size(28, 33);
             this.ScoreCounter.TabIndex = 10;
@@ -313,7 +313,7 @@
             this.ScoreLabel.BackColor = System.Drawing.Color.Black;
             this.ScoreLabel.Font = new System.Drawing.Font("Papyrus", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ScoreLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.ScoreLabel.Location = new System.Drawing.Point(482, 92);
+            this.ScoreLabel.Location = new System.Drawing.Point(554, 92);
             this.ScoreLabel.Name = "ScoreLabel";
             this.ScoreLabel.Size = new System.Drawing.Size(89, 33);
             this.ScoreLabel.TabIndex = 9;
@@ -339,11 +339,11 @@
             this.TimeRemaining.Interval = 1000;
             this.TimeRemaining.Tick += new System.EventHandler(this.TimeRemaining_Tick);
             // 
-            // Game
+            // GameMedio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 481);
+            this.ClientSize = new System.Drawing.Size(772, 485);
             this.Controls.Add(this.levelValue);
             this.Controls.Add(this.levelLabel);
             this.Controls.Add(this.resetButton);
@@ -353,7 +353,8 @@
             this.Controls.Add(this.ScoreCounter);
             this.Controls.Add(this.ScoreLabel);
             this.Controls.Add(this.GamePanel);
-            this.Name = "Game";
+            this.Name = "GameMedio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";
             this.Load += new System.EventHandler(this.Game_Load);
             this.GamePanel.ResumeLayout(false);

@@ -28,8 +28,8 @@ namespace Jogo_da_Memória
         }
 
         private void cmdJogar_Click(object sender, EventArgs e) {
-            Game game = new Game();
-            game.ShowDialog();
+            GameFacil gameizi = new GameFacil();
+            gameizi.ShowDialog();
             //ep = new frmEscolhaPersonagem();
             //ep.ShowDialog();
         }
