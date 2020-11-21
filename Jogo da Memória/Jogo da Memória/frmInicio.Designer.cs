@@ -40,9 +40,10 @@
             this.cmdJogar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cmdJogar.FlatAppearance.BorderSize = 0;
             this.cmdJogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdJogar.Location = new System.Drawing.Point(539, 382);
+            this.cmdJogar.Location = new System.Drawing.Point(359, 248);
+            this.cmdJogar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmdJogar.Name = "cmdJogar";
-            this.cmdJogar.Size = new System.Drawing.Size(378, 177);
+            this.cmdJogar.Size = new System.Drawing.Size(252, 115);
             this.cmdJogar.TabIndex = 0;
             this.cmdJogar.UseVisualStyleBackColor = false;
             // 
@@ -53,9 +54,10 @@
             this.cmdSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cmdSair.FlatAppearance.BorderSize = 0;
             this.cmdSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdSair.Location = new System.Drawing.Point(803, 736);
+            this.cmdSair.Location = new System.Drawing.Point(535, 478);
+            this.cmdSair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmdSair.Name = "cmdSair";
-            this.cmdSair.Size = new System.Drawing.Size(210, 98);
+            this.cmdSair.Size = new System.Drawing.Size(140, 64);
             this.cmdSair.TabIndex = 1;
             this.cmdSair.UseVisualStyleBackColor = false;
             // 
@@ -66,22 +68,24 @@
             this.cmdComoJogar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cmdComoJogar.FlatAppearance.BorderSize = 0;
             this.cmdComoJogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdComoJogar.Location = new System.Drawing.Point(388, 736);
+            this.cmdComoJogar.Location = new System.Drawing.Point(259, 478);
+            this.cmdComoJogar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmdComoJogar.Name = "cmdComoJogar";
-            this.cmdComoJogar.Size = new System.Drawing.Size(210, 98);
+            this.cmdComoJogar.Size = new System.Drawing.Size(140, 64);
             this.cmdComoJogar.TabIndex = 2;
             this.cmdComoJogar.UseVisualStyleBackColor = false;
             // 
             // frmInicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.back;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1172, 876);
+            this.ClientSize = new System.Drawing.Size(781, 559);
             this.Controls.Add(this.cmdComoJogar);
             this.Controls.Add(this.cmdSair);
             this.Controls.Add(this.cmdJogar);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmInicio";
             this.Text = "Form1";
             this.ResumeLayout(false);

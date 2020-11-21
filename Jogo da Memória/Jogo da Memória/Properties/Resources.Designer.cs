@@ -123,6 +123,16 @@ namespace Jogo_da_Memória.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundoSelecionarFase {
+            get {
+                object obj = ResourceManager.GetObject("fundoSelecionarFase", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pers1 {
             get {
                 object obj = ResourceManager.GetObject("pers1", resourceCulture);
