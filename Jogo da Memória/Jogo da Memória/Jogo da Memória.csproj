@@ -97,6 +97,25 @@
     <Compile Include="frmTutorial.Designer.cs">
       <DependentUpon>frmTutorial.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameClass.cs" />
+    <Compile Include="GameMedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameMedio.Designer.cs">
+      <DependentUpon>GameMedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameDificil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameDificil.Designer.cs">
+      <DependentUpon>GameDificil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameFacil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameFacil.Designer.cs">
+      <DependentUpon>GameFacil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Personagem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,6 +139,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTutorial.resx">
       <DependentUpon>frmTutorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameDificil.resx">
+      <DependentUpon>GameDificil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameMedio.resx">
+      <DependentUpon>GameMedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameFacil.resx">
+      <DependentUpon>GameFacil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -171,6 +199,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fundoSelecionarFase.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgForm2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgs\lock.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
