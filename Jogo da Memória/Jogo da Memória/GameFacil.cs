@@ -45,14 +45,14 @@ namespace Jogo_da_Memória
 
             ScoreTimer.Start();
             CountdownTimer.Start();
-            img1.Image = Properties.Resources.img1;
-            dupimg1.Image = Properties.Resources.img1;
-            img2.Image = Properties.Resources.img2;
-            dupimg2.Image = Properties.Resources.img2;
-            img3.Image = Properties.Resources.img3;
-            dupimg3.Image = Properties.Resources.img3;
-            img4.Image = Properties.Resources.img4;
-            dupimg4.Image = Properties.Resources.img4;
+            img1.Image = Properties.Resources.A;
+            dupimg1.Image = Properties.Resources.A;
+            img2.Image = Properties.Resources.B;
+            dupimg2.Image = Properties.Resources.B;
+            img3.Image = Properties.Resources.C;
+            dupimg3.Image = Properties.Resources.C;
+            img4.Image = Properties.Resources.D;
+            dupimg4.Image = Properties.Resources.D;
         }
 
         private void resetButton_Click(object sender, EventArgs e)
@@ -181,8 +181,8 @@ namespace Jogo_da_Memória
         {
             //Timer to flip back images to cover image
             FlipTime.Stop();
-            FlippedImage1.Image = Properties.Resources.cover;
-            FlippedImage2.Image = Properties.Resources.cover;
+            FlippedImage1.Image = Properties.Resources.cover1;
+            FlippedImage2.Image = Properties.Resources.cover1;
             FlippedImage1 = null;
             FlippedImage2 = null;
         }
