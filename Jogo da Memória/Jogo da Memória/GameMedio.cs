@@ -45,28 +45,28 @@ namespace Jogo_da_Memória
 
             ScoreTimer.Start();
             CountdownTimer.Start();
-            img1.Image = Properties.Resources.img1;
-            dupimg1.Image = Properties.Resources.img1;
-            img2.Image = Properties.Resources.img2;
-            dupimg2.Image = Properties.Resources.img2;
-            img3.Image = Properties.Resources.img3;
-            dupimg3.Image = Properties.Resources.img3;
-            img4.Image = Properties.Resources.img4;
-            dupimg4.Image = Properties.Resources.img4;
-            img5.Image = Properties.Resources.img5;
-            dupimg5.Image = Properties.Resources.img5;
-            img6.Image = Properties.Resources.img6;
-            dupimg6.Image = Properties.Resources.img6; 
+            img1.Image = Properties.Resources.E;
+            dupimg1.Image = Properties.Resources.E;
+            img2.Image = Properties.Resources.F;
+            dupimg2.Image = Properties.Resources.F;
+            img3.Image = Properties.Resources.G;
+            dupimg3.Image = Properties.Resources.G;
+            img4.Image = Properties.Resources.H;
+            dupimg4.Image = Properties.Resources.H;
+            img5.Image = Properties.Resources.I;
+            dupimg5.Image = Properties.Resources.I;
+            img6.Image = Properties.Resources.J;
+            dupimg6.Image = Properties.Resources.J; 
         }
 
         private void resetButton_Click(object sender, EventArgs e)
         {
             //Resetting all values
             resetButton.BackColor = Color.Transparent;
-            resetButton.Text = "Play Again";
+            resetButton.Text = "Recomeçar";
             ScoreCounter.Text = "0";
             timeLeft.Text = "60";
-            levelValue.Text = "1";
+            levelValue.Text = "2";
             //Restarting the game
             Game_Load(sender, e);
         }
@@ -78,7 +78,7 @@ namespace Jogo_da_Memória
             {   //Switching all cards back to cover mode
                 picture.Enabled = true;
                 picture.Cursor = Cursors.Hand;
-                picture.Image = Properties.Resources.cover;
+                picture.Image = Properties.Resources.cover1;
             }
         }
 
@@ -104,10 +104,10 @@ namespace Jogo_da_Memória
             if (timer == 0)
             {
                 TimeRemaining.Stop();
-                MessageBox.Show("You Scored " + ScoreCounter.Text + " at level : " + levelValue.Text);
+                MessageBox.Show("Pontuação: " + ScoreCounter.Text /*+ " at level : " + levelValue.Text*/);
                 ScoreCounter.Text = "0";
                 resetButton.BackColor = Color.Red;
-                resetButton.Text = "Play Again?";
+                resetButton.Text = "Recomeçar ?";
             }
         }
 
@@ -121,15 +121,15 @@ namespace Jogo_da_Memória
             if (Convert.ToInt32(ScoreCounter.Text) >= LevelUp)
             {
                 ScoreCounter.Text = "0";
-                TimeLevel -= 5;
-                timeLeft.Text = Convert.ToString(TimeLevel);
-                levelValue.Text = Convert.ToString(Convert.ToInt32(levelValue.Text) + 1);
-                LevelUp += 5;
-                if (TimeLevel <= 15)
-                {
-                    MessageBox.Show("Thanks for Playing! You've completed the game");
-                    Application.Exit();
-                }
+                //TimeLevel -= 5;
+                //timeLeft.Text = Convert.ToString(TimeLevel);
+                //levelValue.Text = Convert.ToString(Convert.ToInt32(levelValue.Text) + 1);
+                //LevelUp += 5;
+                //if (TimeLevel <= 15)
+                //{
+                //    MessageBox.Show("Thanks for Playing! You've completed the game");
+                //    Application.Exit();
+                //}
                 Game_Load(this, null);
             }
             else
@@ -144,73 +144,73 @@ namespace Jogo_da_Memória
         #region Cartas
         private void img1_Click(object sender, EventArgs e)
         {
-            img1.Image = Properties.Resources.img1;
+            img1.Image = Properties.Resources.E;
             checkImages(img1, dupimg1);
         }
 
         private void img2_Click(object sender, EventArgs e)
         {
-            img2.Image = Properties.Resources.img2;
+            img2.Image = Properties.Resources.F;
             checkImages(img2, dupimg2);
         }
 
         private void img3_Click(object sender, EventArgs e)
         {
-            img3.Image = Properties.Resources.img3;
+            img3.Image = Properties.Resources.G;
             checkImages(img3, dupimg3);
         }
 
         private void img4_Click(object sender, EventArgs e)
         {
-            img4.Image = Properties.Resources.img4;
+            img4.Image = Properties.Resources.H;
             checkImages(img4, dupimg4);
         }
 
         private void img5_Click(object sender, EventArgs e)
         {
-            img5.Image = Properties.Resources.img5;
+            img5.Image = Properties.Resources.I;
             checkImages(img5, dupimg5);
         }
 
         private void img6_Click(object sender, EventArgs e)
         {
-            img6.Image = Properties.Resources.img6;
+            img6.Image = Properties.Resources.J;
             checkImages(img6, dupimg6);
         }
 
         private void dupimg1_Click(object sender, EventArgs e)
         {
-            dupimg1.Image = Properties.Resources.img1;
+            dupimg1.Image = Properties.Resources.E;
             checkImages(dupimg1, img1);
         }
 
         private void dupimg2_Click(object sender, EventArgs e)
         {
-            dupimg2.Image = Properties.Resources.img2;
+            dupimg2.Image = Properties.Resources.F;
             checkImages(dupimg2, img2);
         }
 
         private void dupimg3_Click(object sender, EventArgs e)
         {
-            dupimg3.Image = Properties.Resources.img3;
+            dupimg3.Image = Properties.Resources.G;
             checkImages(dupimg3, img3);
         }
 
         private void dupimg4_Click(object sender, EventArgs e)
         {
-            dupimg4.Image = Properties.Resources.img4;
+            dupimg4.Image = Properties.Resources.H;
             checkImages(dupimg4, img4);
         }
 
         private void dupimg5_Click(object sender, EventArgs e)
         {
-            dupimg5.Image = Properties.Resources.img5;
+            dupimg5.Image = Properties.Resources.I;
             checkImages(dupimg5, img5);
         }
 
         private void dupimg6_Click(object sender, EventArgs e)
         {
-            dupimg6.Image = Properties.Resources.img6;
+            dupimg6.Image = Properties.Resources.J;
             checkImages(dupimg6, img6);
         }
         #endregion
@@ -258,8 +258,8 @@ namespace Jogo_da_Memória
         {
             //Timer to flip back images to cover image
             FlipTime.Stop();
-            FlippedImage1.Image = Properties.Resources.cover;
-            FlippedImage2.Image = Properties.Resources.cover;
+            FlippedImage1.Image = Properties.Resources.cover1;
+            FlippedImage2.Image = Properties.Resources.cover1;
             FlippedImage1 = null;
             FlippedImage2 = null;
         }

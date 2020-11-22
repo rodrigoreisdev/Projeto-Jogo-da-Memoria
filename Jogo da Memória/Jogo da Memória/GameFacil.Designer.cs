@@ -177,7 +177,7 @@
             // 
             // ScoreTimer
             // 
-            this.ScoreTimer.Interval = 3000;
+            this.ScoreTimer.Interval = 6000;
             this.ScoreTimer.Tick += new System.EventHandler(this.ScoreTimer_Tick);
             // 
             // CountdownTimer
