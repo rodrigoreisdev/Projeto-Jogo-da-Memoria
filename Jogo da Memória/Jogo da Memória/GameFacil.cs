@@ -45,21 +45,21 @@ namespace Jogo_da_Memória
 
             ScoreTimer.Start();
             CountdownTimer.Start();
-            img1.Image = Properties.Resources.img1;
-            dupimg1.Image = Properties.Resources.img1;
-            img2.Image = Properties.Resources.img2;
-            dupimg2.Image = Properties.Resources.img2;
-            img3.Image = Properties.Resources.img3;
-            dupimg3.Image = Properties.Resources.img3;
-            img4.Image = Properties.Resources.img4;
-            dupimg4.Image = Properties.Resources.img4;
+            img1.Image = Properties.Resources.A;
+            dupimg1.Image = Properties.Resources.A;
+            img2.Image = Properties.Resources.B;
+            dupimg2.Image = Properties.Resources.B;
+            img3.Image = Properties.Resources.C;
+            dupimg3.Image = Properties.Resources.C;
+            img4.Image = Properties.Resources.D;
+            dupimg4.Image = Properties.Resources.D;
         }
 
         private void resetButton_Click(object sender, EventArgs e)
         {
             //Resetting all values
             resetButton.BackColor = Color.Transparent;
-            resetButton.Text = "Play Again";
+            resetButton.Text = "Recomeçar";
             ScoreCounter.Text = "0";
             timeLeft.Text = "60";
             levelValue.Text = "1";
@@ -74,7 +74,7 @@ namespace Jogo_da_Memória
             {   //Switching all cards back to cover mode
                 picture.Enabled = true;
                 picture.Cursor = Cursors.Hand;
-                picture.Image = Properties.Resources.cover;
+                picture.Image = Properties.Resources.cover1;
             }
         }
 
@@ -100,10 +100,10 @@ namespace Jogo_da_Memória
             if (timer == 0)
             {
                 TimeRemaining.Stop();
-                MessageBox.Show("You Scored " + ScoreCounter.Text + " at level : " + levelValue.Text);
+                MessageBox.Show("Pontuação: " + ScoreCounter.Text /*+ " at level : " + levelValue.Text*/);
                 ScoreCounter.Text = "0";
                 resetButton.BackColor = Color.Red;
-                resetButton.Text = "Play Again?";
+                resetButton.Text = "Recomeçar ?";
             }
         }
 
@@ -112,21 +112,21 @@ namespace Jogo_da_Memória
         {
             //Increment level of the game by increasing required score and decreasing Time Limit
             Score += Convert.ToInt32(ScoreCounter.Text);
-            MessageBox.Show("Next Level!");
+            MessageBox.Show("Proximo Nivel");
             GameMedio gameMedio = new GameMedio();
             gameMedio.ShowDialog();
             if (Convert.ToInt32(ScoreCounter.Text) >= LevelUp)
             {
                 ScoreCounter.Text = "0";
-                TimeLevel -= 5;
-                timeLeft.Text = Convert.ToString(TimeLevel);
-                levelValue.Text = Convert.ToString(Convert.ToInt32(levelValue.Text) + 1);
-                LevelUp += 5;
-                if (TimeLevel <= 15)
-                {
-                    MessageBox.Show("Thanks for Playing! You've completed the game");
-                    Application.Exit();
-                }
+                //TimeLevel -= 5;
+                //timeLeft.Text = Convert.ToString(TimeLevel);
+                //levelValue.Text = Convert.ToString(Convert.ToInt32(levelValue.Text) + 1);
+                //LevelUp += 5;
+                //if (TimeLevel <= 15)
+                //{
+                //    MessageBox.Show("Thanks for Playing! You've completed the game");
+                //    Application.Exit();
+                //}
                 GameFacil_Load(this, null);
             }
             else
@@ -181,8 +181,8 @@ namespace Jogo_da_Memória
         {
             //Timer to flip back images to cover image
             FlipTime.Stop();
-            FlippedImage1.Image = Properties.Resources.cover;
-            FlippedImage2.Image = Properties.Resources.cover;
+            FlippedImage1.Image = Properties.Resources.cover1;
+            FlippedImage2.Image = Properties.Resources.cover1;
             FlippedImage1 = null;
             FlippedImage2 = null;
         }
@@ -191,49 +191,49 @@ namespace Jogo_da_Memória
 
         private void img1_Click(object sender, EventArgs e)
         {
-            img1.Image = Properties.Resources.img1;
+            img1.Image = Properties.Resources.A;
             checkImages(img1, dupimg1);
         }
 
         private void img2_Click(object sender, EventArgs e)
         {
-            img2.Image = Properties.Resources.img2;
+            img2.Image = Properties.Resources.B;
             checkImages(img2, dupimg2);
         }
 
         private void img3_Click(object sender, EventArgs e)
         {
-            img3.Image = Properties.Resources.img3;
+            img3.Image = Properties.Resources.C;
             checkImages(img3, dupimg3);
         }
 
         private void img4_Click(object sender, EventArgs e)
         {
-            img4.Image = Properties.Resources.img4;
+            img4.Image = Properties.Resources.D;
             checkImages(img4, dupimg4);
         }
 
         private void dupimg1_Click(object sender, EventArgs e)
         {
-            dupimg1.Image = Properties.Resources.img1;
+            dupimg1.Image = Properties.Resources.A;
             checkImages(dupimg1, img1);
         }
 
         private void dupimg2_Click(object sender, EventArgs e)
         {
-            dupimg2.Image = Properties.Resources.img2;
+            dupimg2.Image = Properties.Resources.B;
             checkImages(dupimg2, img2);
         }
 
         private void dupimg3_Click(object sender, EventArgs e)
         {
-            dupimg3.Image = Properties.Resources.img3;
+            dupimg3.Image = Properties.Resources.C;
             checkImages(dupimg3, img3);
         }
 
         private void dupimg4_Click(object sender, EventArgs e)
         {
-            dupimg4.Image = Properties.Resources.img4;
+            dupimg4.Image = Properties.Resources.D;
             checkImages(dupimg4, img4);
         }
         #endregion

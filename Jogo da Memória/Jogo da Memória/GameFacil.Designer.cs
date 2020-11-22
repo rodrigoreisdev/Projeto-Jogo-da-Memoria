@@ -38,6 +38,10 @@
             this.ScoreCounter = new System.Windows.Forms.Label();
             this.ScoreLabel = new System.Windows.Forms.Label();
             this.GamePanel = new System.Windows.Forms.Panel();
+            this.ScoreTimer = new System.Windows.Forms.Timer(this.components);
+            this.CountdownTimer = new System.Windows.Forms.Timer(this.components);
+            this.FlipTime = new System.Windows.Forms.Timer(this.components);
+            this.TimeRemaining = new System.Windows.Forms.Timer(this.components);
             this.img4 = new System.Windows.Forms.PictureBox();
             this.dupimg4 = new System.Windows.Forms.PictureBox();
             this.img3 = new System.Windows.Forms.PictureBox();
@@ -46,10 +50,6 @@
             this.dupimg2 = new System.Windows.Forms.PictureBox();
             this.img1 = new System.Windows.Forms.PictureBox();
             this.dupimg1 = new System.Windows.Forms.PictureBox();
-            this.ScoreTimer = new System.Windows.Forms.Timer(this.components);
-            this.CountdownTimer = new System.Windows.Forms.Timer(this.components);
-            this.FlipTime = new System.Windows.Forms.Timer(this.components);
-            this.TimeRemaining = new System.Windows.Forms.Timer(this.components);
             this.GamePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.img4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dupimg4)).BeginInit();
@@ -172,100 +172,12 @@
             this.GamePanel.Controls.Add(this.dupimg1);
             this.GamePanel.Location = new System.Drawing.Point(66, 54);
             this.GamePanel.Name = "GamePanel";
-            this.GamePanel.Size = new System.Drawing.Size(442, 266);
+            this.GamePanel.Size = new System.Drawing.Size(438, 265);
             this.GamePanel.TabIndex = 17;
-            // 
-            // img4
-            // 
-            this.img4.Location = new System.Drawing.Point(316, 27);
-            this.img4.Name = "img4";
-            this.img4.Size = new System.Drawing.Size(90, 100);
-            this.img4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.img4.TabIndex = 47;
-            this.img4.TabStop = false;
-            this.img4.Tag = "4";
-            this.img4.Click += new System.EventHandler(this.img4_Click);
-            // 
-            // dupimg4
-            // 
-            this.dupimg4.Location = new System.Drawing.Point(316, 133);
-            this.dupimg4.Name = "dupimg4";
-            this.dupimg4.Size = new System.Drawing.Size(90, 100);
-            this.dupimg4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.dupimg4.TabIndex = 45;
-            this.dupimg4.TabStop = false;
-            this.dupimg4.Tag = "4";
-            this.dupimg4.Click += new System.EventHandler(this.dupimg4_Click);
-            // 
-            // img3
-            // 
-            this.img3.Location = new System.Drawing.Point(220, 27);
-            this.img3.Name = "img3";
-            this.img3.Size = new System.Drawing.Size(90, 100);
-            this.img3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.img3.TabIndex = 43;
-            this.img3.TabStop = false;
-            this.img3.Tag = "3";
-            this.img3.Click += new System.EventHandler(this.img3_Click);
-            // 
-            // dupimg3
-            // 
-            this.dupimg3.Location = new System.Drawing.Point(220, 133);
-            this.dupimg3.Name = "dupimg3";
-            this.dupimg3.Size = new System.Drawing.Size(90, 100);
-            this.dupimg3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.dupimg3.TabIndex = 41;
-            this.dupimg3.TabStop = false;
-            this.dupimg3.Tag = "3";
-            this.dupimg3.Click += new System.EventHandler(this.dupimg3_Click);
-            // 
-            // img2
-            // 
-            this.img2.Location = new System.Drawing.Point(124, 27);
-            this.img2.Name = "img2";
-            this.img2.Size = new System.Drawing.Size(90, 100);
-            this.img2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.img2.TabIndex = 39;
-            this.img2.TabStop = false;
-            this.img2.Tag = "2";
-            this.img2.Click += new System.EventHandler(this.img2_Click);
-            // 
-            // dupimg2
-            // 
-            this.dupimg2.Location = new System.Drawing.Point(124, 133);
-            this.dupimg2.Name = "dupimg2";
-            this.dupimg2.Size = new System.Drawing.Size(90, 100);
-            this.dupimg2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.dupimg2.TabIndex = 37;
-            this.dupimg2.TabStop = false;
-            this.dupimg2.Tag = "2";
-            this.dupimg2.Click += new System.EventHandler(this.dupimg2_Click);
-            // 
-            // img1
-            // 
-            this.img1.Location = new System.Drawing.Point(28, 27);
-            this.img1.Name = "img1";
-            this.img1.Size = new System.Drawing.Size(90, 100);
-            this.img1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.img1.TabIndex = 35;
-            this.img1.TabStop = false;
-            this.img1.Tag = "1";
-            this.img1.Click += new System.EventHandler(this.img1_Click);
-            // 
-            // dupimg1
-            // 
-            this.dupimg1.Location = new System.Drawing.Point(28, 133);
-            this.dupimg1.Name = "dupimg1";
-            this.dupimg1.Size = new System.Drawing.Size(90, 100);
-            this.dupimg1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.dupimg1.TabIndex = 33;
-            this.dupimg1.TabStop = false;
-            this.dupimg1.Tag = "1";
-            this.dupimg1.Click += new System.EventHandler(this.dupimg1_Click);
             // 
             // ScoreTimer
             // 
-            this.ScoreTimer.Interval = 3000;
+            this.ScoreTimer.Interval = 6000;
             this.ScoreTimer.Tick += new System.EventHandler(this.ScoreTimer_Tick);
             // 
             // CountdownTimer
@@ -282,6 +194,103 @@
             // 
             this.TimeRemaining.Interval = 1000;
             this.TimeRemaining.Tick += new System.EventHandler(this.TimeRemaining_Tick);
+            // 
+            // img4
+            // 
+            this.img4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.img4.Location = new System.Drawing.Point(316, 27);
+            this.img4.Name = "img4";
+            this.img4.Size = new System.Drawing.Size(90, 100);
+            this.img4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img4.TabIndex = 47;
+            this.img4.TabStop = false;
+            this.img4.Tag = "4";
+            this.img4.Click += new System.EventHandler(this.img4_Click);
+            // 
+            // dupimg4
+            // 
+            this.dupimg4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dupimg4.Location = new System.Drawing.Point(316, 133);
+            this.dupimg4.Name = "dupimg4";
+            this.dupimg4.Size = new System.Drawing.Size(90, 100);
+            this.dupimg4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.dupimg4.TabIndex = 45;
+            this.dupimg4.TabStop = false;
+            this.dupimg4.Tag = "4";
+            this.dupimg4.Click += new System.EventHandler(this.dupimg4_Click);
+            // 
+            // img3
+            // 
+            this.img3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.img3.Location = new System.Drawing.Point(220, 27);
+            this.img3.Name = "img3";
+            this.img3.Size = new System.Drawing.Size(90, 100);
+            this.img3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img3.TabIndex = 43;
+            this.img3.TabStop = false;
+            this.img3.Tag = "3";
+            this.img3.Click += new System.EventHandler(this.img3_Click);
+            // 
+            // dupimg3
+            // 
+            this.dupimg3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dupimg3.Location = new System.Drawing.Point(220, 133);
+            this.dupimg3.Name = "dupimg3";
+            this.dupimg3.Size = new System.Drawing.Size(90, 100);
+            this.dupimg3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.dupimg3.TabIndex = 41;
+            this.dupimg3.TabStop = false;
+            this.dupimg3.Tag = "3";
+            this.dupimg3.Click += new System.EventHandler(this.dupimg3_Click);
+            // 
+            // img2
+            // 
+            this.img2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.img2.Location = new System.Drawing.Point(124, 27);
+            this.img2.Name = "img2";
+            this.img2.Size = new System.Drawing.Size(90, 100);
+            this.img2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img2.TabIndex = 39;
+            this.img2.TabStop = false;
+            this.img2.Tag = "2";
+            this.img2.Click += new System.EventHandler(this.img2_Click);
+            // 
+            // dupimg2
+            // 
+            this.dupimg2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dupimg2.Location = new System.Drawing.Point(124, 133);
+            this.dupimg2.Name = "dupimg2";
+            this.dupimg2.Size = new System.Drawing.Size(90, 100);
+            this.dupimg2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.dupimg2.TabIndex = 37;
+            this.dupimg2.TabStop = false;
+            this.dupimg2.Tag = "2";
+            this.dupimg2.Click += new System.EventHandler(this.dupimg2_Click);
+            // 
+            // img1
+            // 
+            this.img1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.img1.Image = global::Jogo_da_Memória.Properties.Resources.cover1;
+            this.img1.Location = new System.Drawing.Point(28, 27);
+            this.img1.Name = "img1";
+            this.img1.Size = new System.Drawing.Size(90, 100);
+            this.img1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img1.TabIndex = 35;
+            this.img1.TabStop = false;
+            this.img1.Tag = "1";
+            this.img1.Click += new System.EventHandler(this.img1_Click);
+            // 
+            // dupimg1
+            // 
+            this.dupimg1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dupimg1.Location = new System.Drawing.Point(28, 133);
+            this.dupimg1.Name = "dupimg1";
+            this.dupimg1.Size = new System.Drawing.Size(90, 100);
+            this.dupimg1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.dupimg1.TabIndex = 33;
+            this.dupimg1.TabStop = false;
+            this.dupimg1.Tag = "1";
+            this.dupimg1.Click += new System.EventHandler(this.dupimg1_Click);
             // 
             // GameFacil
             // 

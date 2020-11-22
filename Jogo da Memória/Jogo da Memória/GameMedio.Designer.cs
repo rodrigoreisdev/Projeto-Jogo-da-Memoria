@@ -250,11 +250,11 @@
             this.resetButton.BackColor = System.Drawing.Color.Transparent;
             this.resetButton.Font = new System.Drawing.Font("Papyrus", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.resetButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.resetButton.Location = new System.Drawing.Point(584, 189);
+            this.resetButton.Location = new System.Drawing.Point(571, 189);
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(155, 47);
             this.resetButton.TabIndex = 14;
-            this.resetButton.Text = "Play Again";
+            this.resetButton.Text = "Começar";
             this.resetButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.resetButton.UseVisualStyleBackColor = false;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
@@ -321,7 +321,7 @@
             // 
             // ScoreTimer
             // 
-            this.ScoreTimer.Interval = 3000;
+            this.ScoreTimer.Interval = 6000;
             this.ScoreTimer.Tick += new System.EventHandler(this.ScoreTimer_Tick);
             // 
             // CountdownTimer
