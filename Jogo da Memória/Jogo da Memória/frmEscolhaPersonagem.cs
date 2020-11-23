@@ -12,7 +12,8 @@ namespace Jogo_da_Memória
 {
     public partial class frmEscolhaPersonagem : Form
     {
-        Personagem personagem;
+        Personagem personagem = new Personagem();
+        GameClass game = new GameClass();
         public frmEscolhaPersonagem()
         {
             InitializeComponent();
@@ -24,6 +25,9 @@ namespace Jogo_da_Memória
             //personagem.FalaAleatoria1Jorge = //Picture box feita pelo edmar 1;     
             //personagem.FalaAleatoria2Jorge = //Picture box feita pelo edmar 2;
             //FrmSelecionarFase sf = new FrmSelecionarFase(personagem, 0, "");
+            game.Nivel = 1;
+            FrmSelecionarFase sf = new FrmSelecionarFase(personagem, game);
+            sf.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e) {
@@ -32,6 +36,9 @@ namespace Jogo_da_Memória
             //personagem.FalaAleatoria1Ivy = //Picture box feita pelo edmar 3;
             //personagem.FalaAleatoria2Ivy = //Picture box feita pelo edmar 4;
             //FrmSelecionarFase sf = new FrmSelecionarFase(personagem, 0, "");
+            game.Nivel = 1;
+            FrmSelecionarFase sf = new FrmSelecionarFase(personagem, game);
+            sf.Show();
         }
     }
 }

@@ -12,6 +12,9 @@ namespace Jogo_da_Memória
 {
     public partial class GameFacil : Form
     {
+        Personagem p;
+        GameClass g;
+
         //Initialise Variables 
         Random location = new Random(); //Changes Location randomly 
         List<Point> points = new List<Point>(); // To Store Location of Images
@@ -22,9 +25,11 @@ namespace Jogo_da_Memória
         int TimeLevel = 60;
         int Score = 0;
 
-        public GameFacil()
+        public GameFacil(Personagem p, GameClass g)
         {
             InitializeComponent();
+            this.p = p;
+            this.g = g;
         }
 
         private void GameFacil_Load(object sender, EventArgs e)
@@ -173,7 +178,9 @@ namespace Jogo_da_Memória
             if (FlippedCount == 4)
             {   //if all images are flipped over then reset the count value and call changeLevel() to check and go to the next level
                 FlippedCount = 0;
-                changeLevel();
+                //changeLevel();
+                FrmGanhou frm = new FrmGanhou(p,g);
+                frm.Show();
             }
         }
 

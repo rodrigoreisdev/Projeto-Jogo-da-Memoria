@@ -28,10 +28,10 @@ namespace Jogo_da_Memória
         }
 
         private void cmdJogar_Click(object sender, EventArgs e) {
-            GameFacil gameizi = new GameFacil();
-            gameizi.ShowDialog();
-            //ep = new frmEscolhaPersonagem();
-            //ep.ShowDialog();
+            //GameFacil gameizi = new GameFacil();
+            //gameizi.ShowDialog();
+            ep = new frmEscolhaPersonagem();
+            ep.Show();
         }
     }
 }

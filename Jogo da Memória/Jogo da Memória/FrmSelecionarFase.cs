@@ -13,70 +13,91 @@ namespace Jogo_da_Memória
 {
     public partial class FrmSelecionarFase : Form
     {
-        Personagem aux;
-        public string DificuldadeGlobal ;
-        public FrmSelecionarFase(Personagem personagem , string tempo , string dificuldade)
+        //Personagem aux;
+        //public string DificuldadeGlobal ;
+        Personagem p;
+        GameClass g;
+
+        //public FrmSelecionarFase(Personagem personagem , string tempo , string dificuldade)
+        //{
+        //    InitializeComponent();
+        //    this.aux = personagem;
+        //    this.DificuldadeGlobal = dificuldade;
+        //}
+
+        public FrmSelecionarFase(Personagem p, GameClass g)
         {
             InitializeComponent();
-            this.aux = personagem;
-            this.DificuldadeGlobal = dificuldade;
+            this.p = p;
+            this.g = g;
+
         }
 
         private void FrmSelecionarFase_Load(object sender, EventArgs e)
         {
-            if (DificuldadeGlobal == facil)
+            if (g.Nivel == 1)
             {
                 cmdFase1.Enabled = true;
+                pb1.Visible = false;
             }
-            if(DificuldadeGlobal == medio)
+            if (g.Nivel == 2)
             {
                 cmdFase1.Enabled = true;
                 cmdFase2.Enabled = true;
+                pb1.Visible = false;
+                pb2.Visible = false;
             }
-            if(DificuldadeGlobal == dificil)
+            if (g.Nivel == 3)
             {
                 cmdFase1.Enabled = true;
                 cmdFase2.Enabled = true;
                 cmdFase3.Enabled = true;
+                pb1.Visible = false;
+                pb2.Visible = false;
+                pb3.Visible = false;
             }
-            if(DificuldadeGlobal == hard)
+            if (g.Nivel == 4)
             {
                 cmdFase1.Enabled = true;
                 cmdFase2.Enabled = true;
                 cmdFase3.Enabled = true;
                 cmdFase4.Enabled = true;
+                pb1.Visible = false;
+                pb2.Visible = false;
+                pb3.Visible = false;
+                pb4.Visible = false;
             }
 
         }
 
         private void cmdFase1_Click(object sender, EventArgs e)
         {
-            
-            Game game = new Game(aux, 60, facil);
-            game.ShowDialog();
-            Close();
+
+            GameFacil frm = new GameFacil(p, g);
+            frm.Show();
+            this.Close();
 
         }
 
         private void cmdFase2_Click(object sender, EventArgs e)
         {
-            Game game = new Game(aux, 30, media);
-            game.ShowDialog();
-            Close();
+            //GameMedio frm = new GameMedio(p, g);
+            //frm.Show();
+            //this.Close();
         }
 
         private void cmdFase3_Click(object sender, EventArgs e)
         {
-            Game game = new Game(aux, 100, dificil);
-            game.ShowDialog();
-            Close();
+            //GameDificil frm = new GameDificil(p, g);
+            //frm.Show();
+            //this.Close();
         }
 
         private void cmdFase4_Click(object sender, EventArgs e)
         {
-            Game game = new Game(aux, 50, hard);
-            game.ShowDialog();
-            Close();
+            //Game game = new Game(aux, 50, hard);
+            //game.ShowDialog();
+            //Close();
         }
     }
 }

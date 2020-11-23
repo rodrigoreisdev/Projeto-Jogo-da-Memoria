@@ -12,9 +12,34 @@ namespace Jogo_da_Memória
 {
     public partial class FrmPerdeu : Form
     {
-        public FrmPerdeu()
+        Personagem p;
+        GameClass g;
+        public FrmPerdeu(Personagem p, GameClass g)
         {
             InitializeComponent();
+            this.p = p;
+            this.g = g;
+        }
+
+        private void FrmPerdeu_Load(object sender, EventArgs e)
+        {
+            //if (p.Nome == "Ivy")
+            //{
+            //    pb_Personagem.Image = Properties.Resources.pers2;   //Atribuindo no picture box do personagem a foto da ivy
+            //    pb_Mensagem.Image = Properties.Resources.           //Nome da foto da fala da ivy pra quando perdeu
+            //}
+            //else
+            //{
+            //    pb_Personagem.Image = Properties.Resources.pers1;   //Atribuindo no picture box do personagem a foto do Jorgão
+            //    pb_Mensagem.Image = Properties.Resources.           //Nome da foto da fala do jorge pra quando perdeu
+            //}
+        }
+
+        private void bt_Menu_Click(object sender, EventArgs e)
+        {
+            FrmSelecionarFase proximo = new FrmSelecionarFase(p, g);
+            proximo.ShowDialog();
+            Close();
         }
     }
 }
