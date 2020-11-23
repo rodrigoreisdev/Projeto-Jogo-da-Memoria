@@ -311,5 +311,17 @@
   <ItemGroup>
     <None Include="imgs\lock.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\masquepena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parabens.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perdeu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venceu.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

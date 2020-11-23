@@ -393,9 +393,39 @@ namespace Jogo_da_Memória.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap masquepena {
+            get {
+                object obj = ResourceManager.GetObject("masquepena", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap O {
             get {
                 object obj = ResourceManager.GetObject("O", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap parabens {
+            get {
+                object obj = ResourceManager.GetObject("parabens", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap perdeu {
+            get {
+                object obj = ResourceManager.GetObject("perdeu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -476,6 +506,16 @@ namespace Jogo_da_Memória.Properties {
         internal static System.Drawing.Bitmap V {
             get {
                 object obj = ResourceManager.GetObject("V", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap venceu {
+            get {
+                object obj = ResourceManager.GetObject("venceu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
