@@ -31,7 +31,6 @@
             this.cmdJogar = new System.Windows.Forms.Button();
             this.cmdSair = new System.Windows.Forms.Button();
             this.cmdComoJogar = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // cmdJogar
@@ -91,18 +90,6 @@
             this.cmdComoJogar.UseVisualStyleBackColor = false;
             this.cmdComoJogar.Click += new System.EventHandler(this.cmdComoJogar_Click);
             // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.DarkGreen;
-            this.panel1.Location = new System.Drawing.Point(12, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(818, 535);
-            this.panel1.TabIndex = 3;
-            this.panel1.Visible = false;
-            // 
             // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -110,7 +97,6 @@
             this.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.back;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(842, 559);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.cmdComoJogar);
             this.Controls.Add(this.cmdSair);
             this.Controls.Add(this.cmdJogar);
@@ -128,7 +114,6 @@
         private System.Windows.Forms.Button cmdJogar;
         private System.Windows.Forms.Button cmdSair;
         private System.Windows.Forms.Button cmdComoJogar;
-        private System.Windows.Forms.Panel panel1;
     }
 }
 

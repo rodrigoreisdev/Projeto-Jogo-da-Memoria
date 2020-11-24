@@ -12,7 +12,7 @@ namespace Jogo_da_Memória
 {
     public partial class frmInicio : Form
     {
-        //frmComoJogar cj;
+        frmComoJogar cj;
         frmEscolhaPersonagem ep;
         public frmInicio()
         {
@@ -24,13 +24,14 @@ namespace Jogo_da_Memória
         }
 
         private void cmdComoJogar_Click(object sender, EventArgs e) {
-            //cj = new frmComoJogar();
+            cj = new frmComoJogar();
+            cj.Show();
         }
 
         private void cmdJogar_Click(object sender, EventArgs e) {
             //GameFacil gameizi = new GameFacil();
             //gameizi.ShowDialog();
-            panel1.Visible = true;
+
             this.Visible = false;
             this.ShowInTaskbar = false;
             ep = new frmEscolhaPersonagem();

@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label.Text" xml:space="preserve">
+    <value>Jogo da memória didático. Para jogar é muito simples. Primeiramente selecione o seu personagem dentre as duas opções. O primeiro se chama Jorge e é um simpático elefantinho. Já a segunda é a pequena pinguim Ivy. Capriche na sua escolha, pois seu personagem vai te acompanhar até o final. Após escolher o seu personagem, começará o jogo da memória. Você terá alguns instantes para memorizar a localização das combinações. A cada fase concluída a dificuldade aumenta e você precisará provar todo o conhecimento do alfabeto e das cores, além é claro, de sua memória. Boa sorte!</value>
+  </data>
 </root>
