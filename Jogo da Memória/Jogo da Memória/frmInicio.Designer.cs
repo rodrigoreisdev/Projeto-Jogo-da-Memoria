@@ -43,10 +43,10 @@
             this.cmdJogar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.cmdJogar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.cmdJogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdJogar.Location = new System.Drawing.Point(479, 305);
-            this.cmdJogar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cmdJogar.Location = new System.Drawing.Point(359, 248);
+            this.cmdJogar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmdJogar.Name = "cmdJogar";
-            this.cmdJogar.Size = new System.Drawing.Size(336, 142);
+            this.cmdJogar.Size = new System.Drawing.Size(252, 115);
             this.cmdJogar.TabIndex = 0;
             this.cmdJogar.UseVisualStyleBackColor = false;
             this.cmdJogar.Click += new System.EventHandler(this.cmdJogar_Click);
@@ -61,10 +61,10 @@
             this.cmdSair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.cmdSair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.cmdSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdSair.Location = new System.Drawing.Point(713, 588);
-            this.cmdSair.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cmdSair.Location = new System.Drawing.Point(535, 478);
+            this.cmdSair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmdSair.Name = "cmdSair";
-            this.cmdSair.Size = new System.Drawing.Size(187, 79);
+            this.cmdSair.Size = new System.Drawing.Size(140, 64);
             this.cmdSair.TabIndex = 1;
             this.cmdSair.UseVisualStyleBackColor = false;
             this.cmdSair.Click += new System.EventHandler(this.cmdSair_Click);
@@ -79,25 +79,25 @@
             this.cmdComoJogar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.cmdComoJogar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.cmdComoJogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdComoJogar.Location = new System.Drawing.Point(345, 588);
-            this.cmdComoJogar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cmdComoJogar.Location = new System.Drawing.Point(259, 478);
+            this.cmdComoJogar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmdComoJogar.Name = "cmdComoJogar";
-            this.cmdComoJogar.Size = new System.Drawing.Size(187, 79);
+            this.cmdComoJogar.Size = new System.Drawing.Size(140, 64);
             this.cmdComoJogar.TabIndex = 2;
             this.cmdComoJogar.UseVisualStyleBackColor = false;
             this.cmdComoJogar.Click += new System.EventHandler(this.cmdComoJogar_Click);
             // 
             // frmInicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.back;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1122, 688);
+            this.ClientSize = new System.Drawing.Size(842, 559);
             this.Controls.Add(this.cmdComoJogar);
             this.Controls.Add(this.cmdSair);
             this.Controls.Add(this.cmdJogar);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Inicial";

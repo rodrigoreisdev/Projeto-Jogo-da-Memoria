@@ -56,17 +56,17 @@ namespace Jogo_da_Memória
                 pb2.Visible = false;
                 pb3.Visible = false;
             }
-            if (g.Nivel == 4)
-            {
-                cmdFase1.Enabled = true;
-                cmdFase2.Enabled = true;
-                cmdFase3.Enabled = true;
-                cmdFase4.Enabled = true;
-                pb1.Visible = false;
-                pb2.Visible = false;
-                pb3.Visible = false;
-                pb4.Visible = false;
-            }
+            //if (g.Nivel == 4)
+            //{
+            //    cmdFase1.Enabled = true;
+            //    cmdFase2.Enabled = true;
+            //    cmdFase3.Enabled = true;
+            //    cmdFase4.Enabled = true;
+            //    pb1.Visible = false;
+            //    pb2.Visible = false;
+            //    pb3.Visible = false;
+            //    pb4.Visible = false;
+            //}
 
         }
 
@@ -81,23 +81,23 @@ namespace Jogo_da_Memória
 
         private void cmdFase2_Click(object sender, EventArgs e)
         {
-            //GameMedio frm = new GameMedio(p, g);
-            //frm.Show();
-            //this.Close();
+            GameMedio frm = new GameMedio(p, g);
+            frm.Show();
+            this.Close();
         }
 
         private void cmdFase3_Click(object sender, EventArgs e)
         {
-            //GameDificil frm = new GameDificil(p, g);
-            //frm.Show();
-            //this.Close();
+            GameDificil frm = new GameDificil(p, g);
+            frm.Show();
+            this.Close();
         }
 
-        private void cmdFase4_Click(object sender, EventArgs e)
-        {
-            //Game game = new Game(aux, 50, hard);
-            //game.ShowDialog();
-            //Close();
-        }
+        //private void cmdFase4_Click(object sender, EventArgs e)
+        //{
+        //    Game game = new Game(aux, 50, hard);
+        //    game.ShowDialog();
+        //    Close();
+        //}
     }
 }

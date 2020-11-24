@@ -185,6 +185,7 @@ namespace Jogo_da_Memória
             {   //if all images are flipped over then reset the count value and call changeLevel() to check and go to the next level
                 FlippedCount = 0;
                 //changeLevel();
+                TimeRemaining.Stop();
                 FrmGanhou frm = new FrmGanhou(p,g);
                 frm.ShowDialog();
             }

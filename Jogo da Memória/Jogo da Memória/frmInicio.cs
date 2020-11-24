@@ -31,7 +31,7 @@ namespace Jogo_da_Memória
             //GameFacil gameizi = new GameFacil();
             //gameizi.ShowDialog();
             ep = new frmEscolhaPersonagem();
-            ep.Show();
+            ep.ShowDialog();
         }
     }
 }

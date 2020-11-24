@@ -25,15 +25,15 @@ namespace Jogo_da_Memória
         {
             if (p.Nome == "Ivy")
             {
-                pb_Personagem.Image = Properties.Resources.pers2;   //Atribuindo no picture box do personagem a foto da ivy
-                pb_Mensagem.Image = Properties.Resources.venceu;           //Nome da foto da fala da ivy pra quando ganhou
+                pb_Personagem.BackgroundImage = Properties.Resources.pers2;   //Atribuindo no picture box do personagem a foto da ivy
+                pb_Mensagem.BackgroundImage = Properties.Resources.venceu;           //Nome da foto da fala da ivy pra quando ganhou
             }
             else
             {
-                pb_Personagem.Image = Properties.Resources.pers1;   //Atribuindo no picture box do personagem a foto do Jorgão
-                pb_Mensagem.Image = Properties.Resources.venceu;           //Nome da foto da fala do jorge pra quando ganhar
+                pb_Personagem.BackgroundImage = Properties.Resources.pers1;   //Atribuindo no picture box do personagem a foto do Jorgão
+                pb_Mensagem.BackgroundImage = Properties.Resources.venceu;           //Nome da foto da fala do jorge pra quando ganhar
             }
-            if (g.Nivel <= 4)
+            if (g.Nivel < 3)
                 g.Nivel++;
         }
 

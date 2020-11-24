@@ -1,0 +1,23 @@
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Release\Jogo da Memória.exe.config
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Release\Jogo da Memória.exe
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Release\Jogo da Memória.pdb
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Release\MetroFramework.Design.dll
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Release\MetroFramework.dll
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\bin\Release\MetroFramework.Fonts.dll
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo_da_Memória.frmEscolhaPersonagem.resources
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo_da_Memória.FrmGanhou.resources
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo_da_Memória.frmInicio.resources
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo_da_Memória.FrmJogo1.resources
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo_da_Memória.FrmPerdeu.resources
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo_da_Memória.FrmSelecionarFase.resources
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo_da_Memória.frmComoJogar.resources
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo_da_Memória.GameDificil.resources
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo_da_Memória.GameMedio.resources
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo_da_Memória.GameFacil.resources
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo_da_Memória.Properties.Resources.resources
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo da Memória.csproj.GenerateResource.cache
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo da Memória.csproj.CoreCompileInputs.cache
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo da Memória.csproj.CopyComplete
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo da Memória.exe
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo da Memória.pdb
+C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Release\Jogo da Memória.csprojAssemblyReference.cache
