@@ -114,6 +114,7 @@ namespace Jogo_da_Memória
             if (timer == 0)
             {
                 TimeRemaining.Stop();
+                this.Close();
                 FrmPerdeu frm = new FrmPerdeu(p, g);
                 frm.ShowDialog();
                // MessageBox.Show("Pontuação: " + ScoreCounter.Text /*+ " at level : " + levelValue.Text*/);
@@ -262,9 +263,9 @@ namespace Jogo_da_Memória
                 FlippedCount = 0;
                 //changeLevel();
                 TimeRemaining.Stop();
+                this.Close();
                 FrmGanhou frm = new FrmGanhou(p, g);
                 frm.ShowDialog();
-                this.Close();
             }
         }
 

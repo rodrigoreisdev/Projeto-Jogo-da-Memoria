@@ -89,7 +89,6 @@ C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\
 C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmEscolhaPersonagem.resources
 C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmGanhou.resources
 C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmInicio.resources
-C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmJogo1.resources
 C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmPerdeu.resources
 C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmSelecionarFase.resources
 C:\Users\rodrigo.reis\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmComoJogar.resources

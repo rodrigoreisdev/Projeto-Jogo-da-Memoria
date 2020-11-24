@@ -23,6 +23,7 @@ namespace Jogo_da_Memória
 
         private void FrmGanhou_Load(object sender, EventArgs e)
         {
+            g.Nivel++;
             if (p.Nome == "Ivy")
             {
                 pb_Personagem.BackgroundImage = Properties.Resources.pers2;   //Atribuindo no picture box do personagem a foto da ivy
@@ -33,12 +34,12 @@ namespace Jogo_da_Memória
                 pb_Personagem.BackgroundImage = Properties.Resources.pers1;   //Atribuindo no picture box do personagem a foto do Jorgão
                 pb_Mensagem.BackgroundImage = Properties.Resources.venceu;           //Nome da foto da fala do jorge pra quando ganhar
             }
-            if (g.Nivel < 3)
-                g.Nivel++;
             if (g.Nivel == 4)
             {
                 bt_Continuar.Visible = false;
+                bt_Continuar.Enabled = false;
                 cmdSair.Visible = true;
+
             }
         }
 
@@ -46,15 +47,16 @@ namespace Jogo_da_Memória
         {
             if(g.Nivel==2)
             {
+                this.Close();
                 GameMedio frm = new GameMedio(p,g);
                 frm.ShowDialog();
-                this.Close();
             }
             if (g.Nivel == 3)
             {
+                this.Close();
                 GameDificil frm = new GameDificil(p,g);
                 frm.ShowDialog();
-                this.Close();
+
             }
 
         }
