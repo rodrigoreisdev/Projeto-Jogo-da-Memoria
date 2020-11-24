@@ -39,7 +39,7 @@ namespace Jogo_da_Memória
         {
             FrmSelecionarFase proximo = new FrmSelecionarFase(p, g);
             proximo.ShowDialog();
-            Close();
+            this.Close();
         }
     }
 }

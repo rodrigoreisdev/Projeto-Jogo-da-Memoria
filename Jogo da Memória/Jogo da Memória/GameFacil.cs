@@ -188,6 +188,7 @@ namespace Jogo_da_Memória
                 TimeRemaining.Stop();
                 FrmGanhou frm = new FrmGanhou(p,g);
                 frm.ShowDialog();
+                this.Close();
             }
         }
 

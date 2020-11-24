@@ -43,11 +43,13 @@ namespace Jogo_da_Memória
             {
                 GameMedio frm = new GameMedio(p,g);
                 frm.ShowDialog();
+                this.Close();
             }
             if (g.Nivel == 3)
             {
                 GameDificil frm = new GameDificil(p,g);
                 frm.ShowDialog();
+                this.Close();
             }
         }
 
