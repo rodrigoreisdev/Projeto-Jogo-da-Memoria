@@ -41,6 +41,8 @@
             // bt_Menu
             // 
             this.bt_Menu.BackColor = System.Drawing.Color.Turquoise;
+            this.bt_Menu.FlatAppearance.BorderSize = 0;
+            this.bt_Menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_Menu.Font = new System.Drawing.Font("Milky Nice Clean", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_Menu.Location = new System.Drawing.Point(471, 565);
             this.bt_Menu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -73,6 +75,7 @@
             // 
             // pb_Personagem
             // 
+            this.pb_Personagem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pb_Personagem.Location = new System.Drawing.Point(20, 37);
             this.pb_Personagem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pb_Personagem.Name = "pb_Personagem";
@@ -83,6 +86,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Milky Nice Clean", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(385, 41);

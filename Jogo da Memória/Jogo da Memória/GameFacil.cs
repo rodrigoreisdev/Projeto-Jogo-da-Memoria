@@ -34,6 +34,11 @@ namespace Jogo_da_Memória
 
         private void GameFacil_Load(object sender, EventArgs e)
         {
+            if (p.Nome == "Ivy")
+                pbPersoagem.BackgroundImage = Properties.Resources.pers2;
+            else
+                pbPersoagem.BackgroundImage = Properties.Resources.pers1;
+
             label1.Text = "6"; //Label Displaying the time before cards are flipped to Cover mode
             foreach (PictureBox picture in GamePanel.Controls)
             {
@@ -91,6 +96,7 @@ namespace Jogo_da_Memória
             label1.Text = Convert.ToString(timer);
             if (timer == 0)
             {
+                label1.Visible = false;
                 CountdownTimer.Stop();
                 TimeRemaining.Start();
             }
@@ -105,10 +111,10 @@ namespace Jogo_da_Memória
             if (timer == 0)
             {
                 TimeRemaining.Stop();
-                MessageBox.Show("Pontuação: " + ScoreCounter.Text /*+ " at level : " + levelValue.Text*/);
+                FrmPerdeu frm = new FrmPerdeu(p, g);
+                frm.ShowDialog();
+                //MessageBox.Show("Pontuação: " + ScoreCounter.Text /*+ " at level : " + levelValue.Text*/);
                 ScoreCounter.Text = "0";
-                resetButton.BackColor = Color.Red;
-                resetButton.Text = "Recomeçar ?";
             }
         }
 
@@ -118,8 +124,8 @@ namespace Jogo_da_Memória
             //Increment level of the game by increasing required score and decreasing Time Limit
             Score += Convert.ToInt32(ScoreCounter.Text);
             MessageBox.Show("Proximo Nivel");
-            GameMedio gameMedio = new GameMedio();
-            gameMedio.ShowDialog();
+            //GameMedio gameMedio = new GameMedio();
+            //gameMedio.ShowDialog();
             if (Convert.ToInt32(ScoreCounter.Text) >= LevelUp)
             {
                 ScoreCounter.Text = "0";
@@ -165,12 +171,12 @@ namespace Jogo_da_Memória
                     pic2.Enabled = false;   //To avoid clicking the image
                     pic1.Enabled = false;   //Same as above
                     ++FlippedCount;         //To check if the game is over by checking if all images have been flipped
-                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10); //Score Increment if there is a correct match
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 1); //Score Increment if there is a correct match
                 }
                 else
                 {
                     FlipTime.Start();
-                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) - 5); //Score Decrement if there is a wrong match
+                   // ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) - 5); //Score Decrement if there is a wrong match
                 }
 
             }
@@ -180,7 +186,7 @@ namespace Jogo_da_Memória
                 FlippedCount = 0;
                 //changeLevel();
                 FrmGanhou frm = new FrmGanhou(p,g);
-                frm.Show();
+                frm.ShowDialog();
             }
         }
 
