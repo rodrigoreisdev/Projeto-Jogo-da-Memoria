@@ -34,6 +34,7 @@
             this.pb_Personagem = new System.Windows.Forms.PictureBox();
             this.bt_Continuar = new System.Windows.Forms.Button();
             this.bt_Inicio = new System.Windows.Forms.Button();
+            this.cmdSair = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Mensagem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Personagem)).BeginInit();
@@ -109,6 +110,22 @@
             this.bt_Inicio.UseVisualStyleBackColor = false;
             this.bt_Inicio.Click += new System.EventHandler(this.bt_Inicio_Click);
             // 
+            // cmdSair
+            // 
+            this.cmdSair.BackColor = System.Drawing.Color.Turquoise;
+            this.cmdSair.FlatAppearance.BorderSize = 0;
+            this.cmdSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmdSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdSair.ForeColor = System.Drawing.Color.Black;
+            this.cmdSair.Location = new System.Drawing.Point(227, 385);
+            this.cmdSair.Name = "cmdSair";
+            this.cmdSair.Size = new System.Drawing.Size(174, 54);
+            this.cmdSair.TabIndex = 3;
+            this.cmdSair.Text = "Sair";
+            this.cmdSair.UseVisualStyleBackColor = false;
+            this.cmdSair.Visible = false;
+            this.cmdSair.Click += new System.EventHandler(this.cmdSair_Click);
+            // 
             // FrmGanhou
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -116,6 +133,7 @@
             this.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.fundoSelecionarFase;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 480);
+            this.Controls.Add(this.cmdSair);
             this.Controls.Add(this.bt_Inicio);
             this.Controls.Add(this.bt_Continuar);
             this.Controls.Add(this.panel1);
@@ -139,5 +157,6 @@
         private System.Windows.Forms.PictureBox pb_Personagem;
         private System.Windows.Forms.Button bt_Continuar;
         private System.Windows.Forms.Button bt_Inicio;
+        private System.Windows.Forms.Button cmdSair;
     }
 }

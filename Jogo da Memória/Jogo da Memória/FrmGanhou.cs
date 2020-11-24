@@ -35,6 +35,11 @@ namespace Jogo_da_Memória
             }
             if (g.Nivel < 3)
                 g.Nivel++;
+            if (g.Nivel == 4)
+            {
+                bt_Continuar.Visible = false;
+                cmdSair.Visible = true;
+            }
         }
 
         private void bt_Continuar_Click(object sender, EventArgs e)
@@ -51,12 +56,18 @@ namespace Jogo_da_Memória
                 frm.ShowDialog();
                 this.Close();
             }
+
         }
 
         private void bt_Inicio_Click(object sender, EventArgs e)
         {
             FrmSelecionarFase proximo = new FrmSelecionarFase(p, g);
             proximo.ShowDialog();
+            Close();
+        }
+
+        private void cmdSair_Click(object sender, EventArgs e)
+        {
             Close();
         }
     }

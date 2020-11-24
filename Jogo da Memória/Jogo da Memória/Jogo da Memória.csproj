@@ -73,12 +73,6 @@
     <Compile Include="frmInicio.Designer.cs">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmJogo1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmJogo1.Designer.cs">
-      <DependentUpon>FrmJogo1.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmPerdeu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,9 +121,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmJogo1.resx">
-      <DependentUpon>FrmJogo1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPerdeu.resx">
       <DependentUpon>FrmPerdeu.cs</DependentUpon>
