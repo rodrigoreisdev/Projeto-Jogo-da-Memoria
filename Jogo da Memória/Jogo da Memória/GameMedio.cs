@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace Jogo_da_Memória
 {
@@ -25,6 +26,11 @@ namespace Jogo_da_Memória
         int TimeLevel = 60;
         int Score = 0;
 
+        private void playSimpleSound()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.audio2);
+            simpleSound.Play();
+        }
         public GameMedio(Personagem p, GameClass g)
         {
             InitializeComponent();
@@ -34,6 +40,7 @@ namespace Jogo_da_Memória
 
         private void Game_Load(object sender, EventArgs e)
         {
+            playSimpleSound();
             if (p.Nome == "Ivy")
                 pbPersonagem.BackgroundImage = Properties.Resources.pers2;
             else
@@ -111,6 +118,10 @@ namespace Jogo_da_Memória
             int timer = Convert.ToInt32(timeLeft.Text);
             timer -= 1;
             timeLeft.Text = Convert.ToString(timer);
+            if (timer == 50)
+                persfala.BackgroundImage = Properties.Resources.Jorge_voce_consegue;
+            if (timer == 30)
+                persfala.BackgroundImage = Properties.Resources.jorge_ainda_da_tempo;
             if (timer == 0)
             {
                 TimeRemaining.Stop();
@@ -257,6 +268,9 @@ namespace Jogo_da_Memória
                 }
 
             }
+
+            if (FlippedCount == 4)
+                persfala.BackgroundImage = Properties.Resources.Jorge_quase_la;
 
             if (FlippedCount == 6)
             {   //if all images are flipped over then reset the count value and call changeLevel() to check and go to the next level

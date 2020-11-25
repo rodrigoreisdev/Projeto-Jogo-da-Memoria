@@ -52,6 +52,7 @@
             this.pbPersoagem = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.resetButton = new System.Windows.Forms.Button();
+            this.persfala = new System.Windows.Forms.PictureBox();
             this.GamePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.img4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dupimg4)).BeginInit();
@@ -63,6 +64,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dupimg1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPersoagem)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.persfala)).BeginInit();
             this.SuspendLayout();
             // 
             // levelValue
@@ -71,9 +73,10 @@
             this.levelValue.BackColor = System.Drawing.Color.Transparent;
             this.levelValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.levelValue.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.levelValue.Location = new System.Drawing.Point(109, 16);
+            this.levelValue.Location = new System.Drawing.Point(164, 25);
+            this.levelValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.levelValue.Name = "levelValue";
-            this.levelValue.Size = new System.Drawing.Size(25, 26);
+            this.levelValue.Size = new System.Drawing.Size(34, 37);
             this.levelValue.TabIndex = 25;
             this.levelValue.Text = "1";
             // 
@@ -83,9 +86,10 @@
             this.levelLabel.BackColor = System.Drawing.Color.Transparent;
             this.levelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.levelLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.levelLabel.Location = new System.Drawing.Point(19, 12);
+            this.levelLabel.Location = new System.Drawing.Point(28, 18);
+            this.levelLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.levelLabel.Name = "levelLabel";
-            this.levelLabel.Size = new System.Drawing.Size(96, 31);
+            this.levelLabel.Size = new System.Drawing.Size(136, 46);
             this.levelLabel.TabIndex = 24;
             this.levelLabel.Text = "Fase :";
             // 
@@ -95,9 +99,10 @@
             this.timeLeft.BackColor = System.Drawing.Color.Transparent;
             this.timeLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
             this.timeLeft.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.timeLeft.Location = new System.Drawing.Point(873, 16);
+            this.timeLeft.Location = new System.Drawing.Point(1310, 25);
+            this.timeLeft.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.timeLeft.Name = "timeLeft";
-            this.timeLeft.Size = new System.Drawing.Size(38, 26);
+            this.timeLeft.Size = new System.Drawing.Size(55, 37);
             this.timeLeft.TabIndex = 22;
             this.timeLeft.Text = "60";
             // 
@@ -107,9 +112,10 @@
             this.Time.BackColor = System.Drawing.Color.Transparent;
             this.Time.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.Time.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Time.Location = new System.Drawing.Point(755, 11);
+            this.Time.Location = new System.Drawing.Point(1132, 17);
+            this.Time.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Time.Name = "Time";
-            this.Time.Size = new System.Drawing.Size(120, 31);
+            this.Time.Size = new System.Drawing.Size(173, 46);
             this.Time.TabIndex = 21;
             this.Time.Text = "Tempo :";
             // 
@@ -119,9 +125,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(515, 10);
+            this.label1.Location = new System.Drawing.Point(772, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 31);
+            this.label1.Size = new System.Drawing.Size(122, 46);
             this.label1.TabIndex = 20;
             this.label1.Text = "Label";
             // 
@@ -131,9 +138,10 @@
             this.ScoreCounter.BackColor = System.Drawing.Color.Transparent;
             this.ScoreCounter.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
             this.ScoreCounter.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ScoreCounter.Location = new System.Drawing.Point(358, 16);
+            this.ScoreCounter.Location = new System.Drawing.Point(537, 25);
+            this.ScoreCounter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ScoreCounter.Name = "ScoreCounter";
-            this.ScoreCounter.Size = new System.Drawing.Size(25, 26);
+            this.ScoreCounter.Size = new System.Drawing.Size(36, 37);
             this.ScoreCounter.TabIndex = 19;
             this.ScoreCounter.Text = "0";
             // 
@@ -143,9 +151,10 @@
             this.ScoreLabel.BackColor = System.Drawing.Color.Transparent;
             this.ScoreLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ScoreLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ScoreLabel.Location = new System.Drawing.Point(219, 12);
+            this.ScoreLabel.Location = new System.Drawing.Point(328, 18);
+            this.ScoreLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ScoreLabel.Name = "ScoreLabel";
-            this.ScoreLabel.Size = new System.Drawing.Size(131, 31);
+            this.ScoreLabel.Size = new System.Drawing.Size(188, 46);
             this.ScoreLabel.TabIndex = 18;
             this.ScoreLabel.Text = "Acertos :";
             // 
@@ -160,17 +169,19 @@
             this.GamePanel.Controls.Add(this.dupimg2);
             this.GamePanel.Controls.Add(this.img1);
             this.GamePanel.Controls.Add(this.dupimg1);
-            this.GamePanel.Location = new System.Drawing.Point(266, 58);
+            this.GamePanel.Location = new System.Drawing.Point(573, 102);
+            this.GamePanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.GamePanel.Name = "GamePanel";
-            this.GamePanel.Size = new System.Drawing.Size(438, 330);
+            this.GamePanel.Size = new System.Drawing.Size(657, 508);
             this.GamePanel.TabIndex = 17;
             // 
             // img4
             // 
             this.img4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.img4.Location = new System.Drawing.Point(316, 30);
+            this.img4.Location = new System.Drawing.Point(474, 46);
+            this.img4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.img4.Name = "img4";
-            this.img4.Size = new System.Drawing.Size(90, 120);
+            this.img4.Size = new System.Drawing.Size(135, 185);
             this.img4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.img4.TabIndex = 47;
             this.img4.TabStop = false;
@@ -180,9 +191,10 @@
             // dupimg4
             // 
             this.dupimg4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dupimg4.Location = new System.Drawing.Point(316, 179);
+            this.dupimg4.Location = new System.Drawing.Point(474, 275);
+            this.dupimg4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dupimg4.Name = "dupimg4";
-            this.dupimg4.Size = new System.Drawing.Size(90, 122);
+            this.dupimg4.Size = new System.Drawing.Size(135, 188);
             this.dupimg4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dupimg4.TabIndex = 45;
             this.dupimg4.TabStop = false;
@@ -192,9 +204,10 @@
             // img3
             // 
             this.img3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.img3.Location = new System.Drawing.Point(220, 30);
+            this.img3.Location = new System.Drawing.Point(330, 46);
+            this.img3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.img3.Name = "img3";
-            this.img3.Size = new System.Drawing.Size(90, 120);
+            this.img3.Size = new System.Drawing.Size(135, 185);
             this.img3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.img3.TabIndex = 43;
             this.img3.TabStop = false;
@@ -204,9 +217,10 @@
             // dupimg3
             // 
             this.dupimg3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dupimg3.Location = new System.Drawing.Point(220, 179);
+            this.dupimg3.Location = new System.Drawing.Point(330, 275);
+            this.dupimg3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dupimg3.Name = "dupimg3";
-            this.dupimg3.Size = new System.Drawing.Size(90, 122);
+            this.dupimg3.Size = new System.Drawing.Size(135, 188);
             this.dupimg3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dupimg3.TabIndex = 41;
             this.dupimg3.TabStop = false;
@@ -216,9 +230,10 @@
             // img2
             // 
             this.img2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.img2.Location = new System.Drawing.Point(124, 30);
+            this.img2.Location = new System.Drawing.Point(186, 46);
+            this.img2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.img2.Name = "img2";
-            this.img2.Size = new System.Drawing.Size(90, 120);
+            this.img2.Size = new System.Drawing.Size(135, 185);
             this.img2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.img2.TabIndex = 39;
             this.img2.TabStop = false;
@@ -228,9 +243,10 @@
             // dupimg2
             // 
             this.dupimg2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dupimg2.Location = new System.Drawing.Point(124, 179);
+            this.dupimg2.Location = new System.Drawing.Point(186, 275);
+            this.dupimg2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dupimg2.Name = "dupimg2";
-            this.dupimg2.Size = new System.Drawing.Size(90, 122);
+            this.dupimg2.Size = new System.Drawing.Size(135, 188);
             this.dupimg2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dupimg2.TabIndex = 37;
             this.dupimg2.TabStop = false;
@@ -241,9 +257,10 @@
             // 
             this.img1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.img1.Image = global::Jogo_da_Memória.Properties.Resources.cover1;
-            this.img1.Location = new System.Drawing.Point(28, 30);
+            this.img1.Location = new System.Drawing.Point(42, 46);
+            this.img1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.img1.Name = "img1";
-            this.img1.Size = new System.Drawing.Size(90, 120);
+            this.img1.Size = new System.Drawing.Size(135, 185);
             this.img1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.img1.TabIndex = 35;
             this.img1.TabStop = false;
@@ -253,9 +270,10 @@
             // dupimg1
             // 
             this.dupimg1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dupimg1.Location = new System.Drawing.Point(28, 179);
+            this.dupimg1.Location = new System.Drawing.Point(42, 275);
+            this.dupimg1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dupimg1.Name = "dupimg1";
-            this.dupimg1.Size = new System.Drawing.Size(90, 122);
+            this.dupimg1.Size = new System.Drawing.Size(135, 188);
             this.dupimg1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dupimg1.TabIndex = 33;
             this.dupimg1.TabStop = false;
@@ -286,10 +304,9 @@
             // 
             this.pbPersoagem.BackColor = System.Drawing.Color.Transparent;
             this.pbPersoagem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbPersoagem.Location = new System.Drawing.Point(8, 201);
-            this.pbPersoagem.Margin = new System.Windows.Forms.Padding(2);
+            this.pbPersoagem.Location = new System.Drawing.Point(12, 309);
             this.pbPersoagem.Name = "pbPersoagem";
-            this.pbPersoagem.Size = new System.Drawing.Size(235, 202);
+            this.pbPersoagem.Size = new System.Drawing.Size(352, 311);
             this.pbPersoagem.TabIndex = 26;
             this.pbPersoagem.TabStop = false;
             // 
@@ -304,10 +321,9 @@
             this.panel1.Controls.Add(this.levelLabel);
             this.panel1.Controls.Add(this.Time);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 520);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(0, 800);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(968, 55);
+            this.panel1.Size = new System.Drawing.Size(1452, 85);
             this.panel1.TabIndex = 27;
             // 
             // resetButton
@@ -317,26 +333,39 @@
             this.resetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.resetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resetButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.resetButton.Location = new System.Drawing.Point(807, 469);
+            this.resetButton.Location = new System.Drawing.Point(1210, 722);
+            this.resetButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.resetButton.Name = "resetButton";
-            this.resetButton.Size = new System.Drawing.Size(155, 47);
+            this.resetButton.Size = new System.Drawing.Size(232, 72);
             this.resetButton.TabIndex = 23;
             this.resetButton.Text = "Reiniciar";
             this.resetButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.resetButton.UseVisualStyleBackColor = false;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             // 
+            // persfala
+            // 
+            this.persfala.BackColor = System.Drawing.Color.Transparent;
+            this.persfala.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.persfala.Location = new System.Drawing.Point(227, 50);
+            this.persfala.Name = "persfala";
+            this.persfala.Size = new System.Drawing.Size(289, 219);
+            this.persfala.TabIndex = 28;
+            this.persfala.TabStop = false;
+            // 
             // GameFacil
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.fundoSelecionarFase;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(968, 575);
+            this.ClientSize = new System.Drawing.Size(1452, 885);
+            this.Controls.Add(this.persfala);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pbPersoagem);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.GamePanel);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "GameFacil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GameFacil";
@@ -354,6 +383,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbPersoagem)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.persfala)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -383,5 +413,6 @@
         private System.Windows.Forms.PictureBox pbPersoagem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button resetButton;
+        private System.Windows.Forms.PictureBox persfala;
     }
 }

@@ -60,7 +60,6 @@ C:\Users\Rodrigo\source\repos\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da M
 C:\Users\Rodrigo\source\repos\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmEscolhaPersonagem.resources
 C:\Users\Rodrigo\source\repos\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmGanhou.resources
 C:\Users\Rodrigo\source\repos\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmInicio.resources
-C:\Users\Rodrigo\source\repos\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmJogo1.resources
 C:\Users\Rodrigo\source\repos\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmPerdeu.resources
 C:\Users\Rodrigo\source\repos\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmSelecionarFase.resources
 C:\Users\Rodrigo\source\repos\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmComoJogar.resources

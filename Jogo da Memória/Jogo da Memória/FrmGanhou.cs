@@ -38,7 +38,6 @@ namespace Jogo_da_Memória
             {
                 bt_Continuar.Visible = false;
                 bt_Continuar.Enabled = false;
-                cmdSair.Visible = true;
 
             }
         }
