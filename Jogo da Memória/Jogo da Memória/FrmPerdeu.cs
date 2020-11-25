@@ -38,7 +38,7 @@ namespace Jogo_da_Memória
         private void bt_Menu_Click(object sender, EventArgs e)
         {
             FrmSelecionarFase proximo = new FrmSelecionarFase(p, g);
-            proximo.ShowDialog();
+            proximo.Show();
             this.Close();
         }
     }

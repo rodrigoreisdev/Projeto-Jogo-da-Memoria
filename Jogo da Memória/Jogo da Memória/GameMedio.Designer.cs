@@ -356,7 +356,7 @@
             this.panel1.Controls.Add(this.ScoreCounter);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 473);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(967, 65);
             this.panel1.TabIndex = 17;
@@ -366,7 +366,7 @@
             this.pbPersonagem.BackColor = System.Drawing.Color.Transparent;
             this.pbPersonagem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbPersonagem.Location = new System.Drawing.Point(25, 243);
-            this.pbPersonagem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbPersonagem.Margin = new System.Windows.Forms.Padding(2);
             this.pbPersonagem.Name = "pbPersonagem";
             this.pbPersonagem.Size = new System.Drawing.Size(169, 177);
             this.pbPersonagem.TabIndex = 18;
@@ -386,6 +386,7 @@
             this.Name = "GameMedio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Game_Load);
             this.GamePanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.img5)).EndInit();

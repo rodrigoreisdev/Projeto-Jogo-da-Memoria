@@ -26,10 +26,9 @@ namespace Jogo_da_Memória
             //personagem.FalaAleatoria2Jorge = //Picture box feita pelo edmar 2;
             //FrmSelecionarFase sf = new FrmSelecionarFase(personagem, 0, "");
             game.Nivel = 1;
-            this.Visible = false;
-            this.ShowInTaskbar = false;
             FrmSelecionarFase sf = new FrmSelecionarFase(personagem, game);
             sf.Show();
+            this.Close();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e) {
@@ -39,10 +38,9 @@ namespace Jogo_da_Memória
             //personagem.FalaAleatoria2Ivy = //Picture box feita pelo edmar 4;
             //FrmSelecionarFase sf = new FrmSelecionarFase(personagem, 0, "");
             game.Nivel = 1;
-            this.Visible = false;
-            this.ShowInTaskbar = false;
             FrmSelecionarFase sf = new FrmSelecionarFase(personagem, game);
             sf.Show();
+            this.Close();
         }
     }
 }

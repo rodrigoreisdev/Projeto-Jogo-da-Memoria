@@ -410,7 +410,7 @@
             this.panel1.Controls.Add(this.ScoreCounter);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 560);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(933, 65);
             this.panel1.TabIndex = 26;
@@ -420,7 +420,7 @@
             this.pbPersonagem.BackColor = System.Drawing.Color.Transparent;
             this.pbPersonagem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbPersonagem.Location = new System.Drawing.Point(15, 264);
-            this.pbPersonagem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbPersonagem.Margin = new System.Windows.Forms.Padding(2);
             this.pbPersonagem.Name = "pbPersonagem";
             this.pbPersonagem.Size = new System.Drawing.Size(229, 226);
             this.pbPersonagem.TabIndex = 27;
@@ -440,6 +440,7 @@
             this.Name = "GameDificil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GameDificil";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.GameDificil_Load);
             this.GamePanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dupimg8)).EndInit();

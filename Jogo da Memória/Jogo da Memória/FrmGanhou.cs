@@ -47,15 +47,15 @@ namespace Jogo_da_Memória
         {
             if(g.Nivel==2)
             {
-                this.Close();
                 GameMedio frm = new GameMedio(p,g);
-                frm.ShowDialog();
+                frm.Show();
+                this.Close();
             }
             if (g.Nivel == 3)
             {
-                this.Close();
                 GameDificil frm = new GameDificil(p,g);
-                frm.ShowDialog();
+                frm.Show();
+                this.Close();
 
             }
 
@@ -64,13 +64,15 @@ namespace Jogo_da_Memória
         private void bt_Inicio_Click(object sender, EventArgs e)
         {
             FrmSelecionarFase proximo = new FrmSelecionarFase(p, g);
-            proximo.ShowDialog();
+            proximo.Show();
             Close();
         }
 
         private void cmdSair_Click(object sender, EventArgs e)
         {
-            Close();
+            frmInicio frm = new frmInicio();
+            frm.Show();
+            this.Close();
         }
     }
 }

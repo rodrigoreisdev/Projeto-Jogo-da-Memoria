@@ -74,7 +74,7 @@
             this.pb3.BackgroundImage = global::Jogo_da_Memória.Properties.Resources._lock;
             this.pb3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb3.Location = new System.Drawing.Point(211, 122);
-            this.pb3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb3.Margin = new System.Windows.Forms.Padding(2);
             this.pb3.Name = "pb3";
             this.pb3.Size = new System.Drawing.Size(44, 38);
             this.pb3.TabIndex = 2;
@@ -86,7 +86,7 @@
             this.pb2.BackgroundImage = global::Jogo_da_Memória.Properties.Resources._lock;
             this.pb2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb2.Location = new System.Drawing.Point(211, 65);
-            this.pb2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb2.Margin = new System.Windows.Forms.Padding(2);
             this.pb2.Name = "pb2";
             this.pb2.Size = new System.Drawing.Size(44, 38);
             this.pb2.TabIndex = 2;
@@ -98,7 +98,7 @@
             this.pb1.BackgroundImage = global::Jogo_da_Memória.Properties.Resources._lock;
             this.pb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb1.Location = new System.Drawing.Point(211, 12);
-            this.pb1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb1.Margin = new System.Windows.Forms.Padding(2);
             this.pb1.Name = "pb1";
             this.pb1.Size = new System.Drawing.Size(44, 38);
             this.pb1.TabIndex = 2;
@@ -159,6 +159,8 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonSelecioneONivel);
             this.Name = "FrmSelecionarFase";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmSelecionarFase_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pb3)).EndInit();

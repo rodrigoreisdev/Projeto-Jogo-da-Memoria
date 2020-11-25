@@ -12,8 +12,8 @@ namespace Jogo_da_Memória
 {
     public partial class frmInicio : Form
     {
-        frmComoJogar cj;
-        frmEscolhaPersonagem ep;
+        
+        
         public frmInicio()
         {
             InitializeComponent();
@@ -24,18 +24,18 @@ namespace Jogo_da_Memória
         }
 
         private void cmdComoJogar_Click(object sender, EventArgs e) {
+            frmComoJogar cj;
             cj = new frmComoJogar();
             cj.Show();
         }
 
         private void cmdJogar_Click(object sender, EventArgs e) {
             //GameFacil gameizi = new GameFacil();
-            //gameizi.ShowDialog();
-
-            this.Visible = false;
-            this.ShowInTaskbar = false;
+            //gameizi.ShowDialog
+            frmEscolhaPersonagem ep;
             ep = new frmEscolhaPersonagem();
-            ep.ShowDialog();
+            ep.Show();
+            this.Hide();
         }
 
         private void frmInicio_Load(object sender, EventArgs e)

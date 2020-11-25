@@ -287,7 +287,7 @@
             this.pbPersoagem.BackColor = System.Drawing.Color.Transparent;
             this.pbPersoagem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbPersoagem.Location = new System.Drawing.Point(8, 201);
-            this.pbPersoagem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbPersoagem.Margin = new System.Windows.Forms.Padding(2);
             this.pbPersoagem.Name = "pbPersoagem";
             this.pbPersoagem.Size = new System.Drawing.Size(235, 202);
             this.pbPersoagem.TabIndex = 26;
@@ -305,7 +305,7 @@
             this.panel1.Controls.Add(this.Time);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 520);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(968, 55);
             this.panel1.TabIndex = 27;
@@ -340,6 +340,7 @@
             this.Name = "GameFacil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GameFacil";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.GameFacil_Load);
             this.GamePanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.img4)).EndInit();
