@@ -38,6 +38,8 @@ namespace Jogo_da_Memória
             {
                 bt_Continuar.Visible = false;
                 bt_Continuar.Enabled = false;
+                cmdSair.Visible = true;
+                bt_Inicio.Visible = false;
 
             }
         }
@@ -72,6 +74,11 @@ namespace Jogo_da_Memória
             frmInicio frm = new frmInicio();
             frm.Show();
             this.Close();
+        }
+
+        private void cmdSair_Click_1(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }

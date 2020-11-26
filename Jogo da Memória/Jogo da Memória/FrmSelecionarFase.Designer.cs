@@ -32,10 +32,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pb3 = new System.Windows.Forms.PictureBox();
             this.pb2 = new System.Windows.Forms.PictureBox();
-            this.pb1 = new System.Windows.Forms.PictureBox();
             this.cmdFase3 = new System.Windows.Forms.Button();
             this.cmdFase2 = new System.Windows.Forms.Button();
             this.cmdFase1 = new System.Windows.Forms.Button();
+            this.pb1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
@@ -92,18 +92,6 @@
             this.pb2.TabIndex = 2;
             this.pb2.TabStop = false;
             // 
-            // pb1
-            // 
-            this.pb1.BackColor = System.Drawing.Color.Turquoise;
-            this.pb1.BackgroundImage = global::Jogo_da_Memória.Properties.Resources._lock;
-            this.pb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb1.Location = new System.Drawing.Point(211, 12);
-            this.pb1.Margin = new System.Windows.Forms.Padding(2);
-            this.pb1.Name = "pb1";
-            this.pb1.Size = new System.Drawing.Size(44, 38);
-            this.pb1.TabIndex = 2;
-            this.pb1.TabStop = false;
-            // 
             // cmdFase3
             // 
             this.cmdFase3.BackColor = System.Drawing.Color.Turquoise;
@@ -137,7 +125,6 @@
             // cmdFase1
             // 
             this.cmdFase1.BackColor = System.Drawing.Color.Turquoise;
-            this.cmdFase1.Enabled = false;
             this.cmdFase1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdFase1.ForeColor = System.Drawing.Color.Black;
             this.cmdFase1.Location = new System.Drawing.Point(11, 6);
@@ -148,6 +135,19 @@
             this.cmdFase1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.cmdFase1.UseVisualStyleBackColor = false;
             this.cmdFase1.Click += new System.EventHandler(this.cmdFase1_Click);
+            // 
+            // pb1
+            // 
+            this.pb1.BackColor = System.Drawing.Color.Turquoise;
+            this.pb1.BackgroundImage = global::Jogo_da_Memória.Properties.Resources._lock;
+            this.pb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb1.Location = new System.Drawing.Point(211, 12);
+            this.pb1.Margin = new System.Windows.Forms.Padding(2);
+            this.pb1.Name = "pb1";
+            this.pb1.Size = new System.Drawing.Size(44, 38);
+            this.pb1.TabIndex = 2;
+            this.pb1.TabStop = false;
+            this.pb1.Visible = false;
             // 
             // FrmSelecionarFase
             // 
@@ -177,8 +177,8 @@
         private System.Windows.Forms.Button cmdFase3;
         private System.Windows.Forms.Button cmdFase2;
         private System.Windows.Forms.Button cmdFase1;
-        private System.Windows.Forms.PictureBox pb1;
         private System.Windows.Forms.PictureBox pb3;
         private System.Windows.Forms.PictureBox pb2;
+        private System.Windows.Forms.PictureBox pb1;
     }
 }
