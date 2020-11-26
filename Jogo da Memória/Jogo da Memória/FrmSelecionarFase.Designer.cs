@@ -32,10 +32,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pb3 = new System.Windows.Forms.PictureBox();
             this.pb2 = new System.Windows.Forms.PictureBox();
+            this.pb1 = new System.Windows.Forms.PictureBox();
             this.cmdFase3 = new System.Windows.Forms.Button();
             this.cmdFase2 = new System.Windows.Forms.Button();
             this.cmdFase1 = new System.Windows.Forms.Button();
-            this.pb1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
@@ -45,9 +45,9 @@
             // buttonSelecioneONivel
             // 
             this.buttonSelecioneONivel.BackColor = System.Drawing.Color.Yellow;
-            this.buttonSelecioneONivel.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSelecioneONivel.Font = new System.Drawing.Font("Milky Nice", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSelecioneONivel.ForeColor = System.Drawing.Color.Red;
-            this.buttonSelecioneONivel.Location = new System.Drawing.Point(251, 76);
+            this.buttonSelecioneONivel.Location = new System.Drawing.Point(539, 228);
             this.buttonSelecioneONivel.Name = "buttonSelecioneONivel";
             this.buttonSelecioneONivel.Size = new System.Drawing.Size(277, 65);
             this.buttonSelecioneONivel.TabIndex = 0;
@@ -63,7 +63,7 @@
             this.panel1.Controls.Add(this.cmdFase3);
             this.panel1.Controls.Add(this.cmdFase2);
             this.panel1.Controls.Add(this.cmdFase1);
-            this.panel1.Location = new System.Drawing.Point(251, 141);
+            this.panel1.Location = new System.Drawing.Point(539, 293);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(277, 177);
             this.panel1.TabIndex = 1;
@@ -92,50 +92,6 @@
             this.pb2.TabIndex = 2;
             this.pb2.TabStop = false;
             // 
-            // cmdFase3
-            // 
-            this.cmdFase3.BackColor = System.Drawing.Color.Turquoise;
-            this.cmdFase3.Enabled = false;
-            this.cmdFase3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdFase3.ForeColor = System.Drawing.Color.Black;
-            this.cmdFase3.Location = new System.Drawing.Point(11, 115);
-            this.cmdFase3.Name = "cmdFase3";
-            this.cmdFase3.Size = new System.Drawing.Size(254, 51);
-            this.cmdFase3.TabIndex = 4;
-            this.cmdFase3.Text = "Fase 3";
-            this.cmdFase3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.cmdFase3.UseVisualStyleBackColor = false;
-            this.cmdFase3.Click += new System.EventHandler(this.cmdFase3_Click);
-            // 
-            // cmdFase2
-            // 
-            this.cmdFase2.BackColor = System.Drawing.Color.Turquoise;
-            this.cmdFase2.Enabled = false;
-            this.cmdFase2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdFase2.ForeColor = System.Drawing.Color.Black;
-            this.cmdFase2.Location = new System.Drawing.Point(11, 60);
-            this.cmdFase2.Name = "cmdFase2";
-            this.cmdFase2.Size = new System.Drawing.Size(254, 51);
-            this.cmdFase2.TabIndex = 3;
-            this.cmdFase2.Text = "Fase 2";
-            this.cmdFase2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.cmdFase2.UseVisualStyleBackColor = false;
-            this.cmdFase2.Click += new System.EventHandler(this.cmdFase2_Click);
-            // 
-            // cmdFase1
-            // 
-            this.cmdFase1.BackColor = System.Drawing.Color.Turquoise;
-            this.cmdFase1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdFase1.ForeColor = System.Drawing.Color.Black;
-            this.cmdFase1.Location = new System.Drawing.Point(11, 6);
-            this.cmdFase1.Name = "cmdFase1";
-            this.cmdFase1.Size = new System.Drawing.Size(254, 51);
-            this.cmdFase1.TabIndex = 2;
-            this.cmdFase1.Text = "Fase 1";
-            this.cmdFase1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.cmdFase1.UseVisualStyleBackColor = false;
-            this.cmdFase1.Click += new System.EventHandler(this.cmdFase1_Click);
-            // 
             // pb1
             // 
             this.pb1.BackColor = System.Drawing.Color.Turquoise;
@@ -149,13 +105,57 @@
             this.pb1.TabStop = false;
             this.pb1.Visible = false;
             // 
+            // cmdFase3
+            // 
+            this.cmdFase3.BackColor = System.Drawing.Color.Turquoise;
+            this.cmdFase3.Enabled = false;
+            this.cmdFase3.Font = new System.Drawing.Font("Milky Nice", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdFase3.ForeColor = System.Drawing.Color.Black;
+            this.cmdFase3.Location = new System.Drawing.Point(7, 115);
+            this.cmdFase3.Name = "cmdFase3";
+            this.cmdFase3.Size = new System.Drawing.Size(262, 51);
+            this.cmdFase3.TabIndex = 4;
+            this.cmdFase3.Text = "Fase 3";
+            this.cmdFase3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cmdFase3.UseVisualStyleBackColor = false;
+            this.cmdFase3.Click += new System.EventHandler(this.cmdFase3_Click);
+            // 
+            // cmdFase2
+            // 
+            this.cmdFase2.BackColor = System.Drawing.Color.Turquoise;
+            this.cmdFase2.Enabled = false;
+            this.cmdFase2.Font = new System.Drawing.Font("Milky Nice", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdFase2.ForeColor = System.Drawing.Color.Black;
+            this.cmdFase2.Location = new System.Drawing.Point(7, 60);
+            this.cmdFase2.Name = "cmdFase2";
+            this.cmdFase2.Size = new System.Drawing.Size(262, 51);
+            this.cmdFase2.TabIndex = 3;
+            this.cmdFase2.Text = "Fase 2";
+            this.cmdFase2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cmdFase2.UseVisualStyleBackColor = false;
+            this.cmdFase2.Click += new System.EventHandler(this.cmdFase2_Click);
+            // 
+            // cmdFase1
+            // 
+            this.cmdFase1.BackColor = System.Drawing.Color.Turquoise;
+            this.cmdFase1.Font = new System.Drawing.Font("Milky Nice", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdFase1.ForeColor = System.Drawing.Color.Black;
+            this.cmdFase1.Location = new System.Drawing.Point(7, 6);
+            this.cmdFase1.Name = "cmdFase1";
+            this.cmdFase1.Size = new System.Drawing.Size(262, 51);
+            this.cmdFase1.TabIndex = 2;
+            this.cmdFase1.Text = "Fase 1";
+            this.cmdFase1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cmdFase1.UseVisualStyleBackColor = false;
+            this.cmdFase1.Click += new System.EventHandler(this.cmdFase1_Click);
+            // 
             // FrmSelecionarFase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.fundoSelecionarFase;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(942, 562);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonSelecioneONivel);
             this.Name = "FrmSelecionarFase";
