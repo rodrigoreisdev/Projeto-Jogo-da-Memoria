@@ -31,14 +31,12 @@ namespace Jogo_da_Memória
         int LevelUp = 20;
         int TimeLevel = 60;
         int Score = 0;
-        private void playSimpleSound()
-        {
-            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.audio3);
-            simpleSound.Play();
-        }
+        SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.audio3);
+
+
         private void GameDificil_Load(object sender, EventArgs e)
         {
-            playSimpleSound();
+            simpleSound.Play();
             if (p.Nome == "Ivy")
                 pbPersonagem.BackgroundImage = Properties.Resources.pers2;
             else
@@ -166,9 +164,12 @@ namespace Jogo_da_Memória
                 FlippedCount = 0;
                 //changeLevel();
                 TimeRemaining.Stop();
+                simpleSound.Stop();
+                this.Hide();
+                this.ShowInTaskbar = false;
                 FrmGanhou frm = new FrmGanhou(p, g);
                 frm.Show();
-                this.Close();
+                //this.Close();
             }
         }
 
