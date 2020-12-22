@@ -42,5 +42,12 @@ namespace Jogo_da_Memória
         {
 
         }
+
+        private void cmdCreditos_Click(object sender, EventArgs e)
+        {
+            FrmCreditos frmCreditos = new FrmCreditos();
+            frmCreditos.ShowDialog();
+            this.Hide();
+        }
     }
 }

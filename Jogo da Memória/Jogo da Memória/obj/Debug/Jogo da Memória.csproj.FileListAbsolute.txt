@@ -122,3 +122,26 @@ C:\Users\cruzi\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da
 C:\Users\cruzi\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csproj.CopyComplete
 C:\Users\cruzi\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.exe
 C:\Users\cruzi\Documents\GitHub\Projeto-Jogo-da-Memoria\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.pdb
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\bin\Debug\Jogo da Memória.exe.config
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\bin\Debug\Jogo da Memória.exe
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\bin\Debug\Jogo da Memória.pdb
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\bin\Debug\MetroFramework.Design.dll
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\bin\Debug\MetroFramework.dll
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\bin\Debug\MetroFramework.Fonts.dll
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csprojAssemblyReference.cache
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmCreditos.resources
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmEscolhaPersonagem.resources
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmGanhou.resources
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmInicio.resources
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmPerdeu.resources
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.FrmSelecionarFase.resources
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.frmComoJogar.resources
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.GameDificil.resources
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.GameMedio.resources
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.GameFacil.resources
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo_da_Memória.Properties.Resources.resources
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csproj.GenerateResource.cache
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csproj.CoreCompileInputs.cache
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.csproj.CopyComplete
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.exe
+D:\Faculdade\4º periodo\Interface Homem Computador\Trabalho\Novo Jogo\Jogo da Memória\Jogo da Memória\obj\Debug\Jogo da Memória.pdb

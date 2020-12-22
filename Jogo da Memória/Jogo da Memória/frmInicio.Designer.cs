@@ -28,48 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cmdJogar = new System.Windows.Forms.Button();
-            this.cmdSair = new System.Windows.Forms.Button();
+            this.cmdCreditos = new System.Windows.Forms.Button();
             this.cmdComoJogar = new System.Windows.Forms.Button();
+            this.cmdSair = new System.Windows.Forms.Button();
+            this.cmdJogar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // cmdJogar
+            // cmdCreditos
             // 
-            this.cmdJogar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdJogar.BackColor = System.Drawing.Color.Transparent;
-            this.cmdJogar.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.btnjogar;
-            this.cmdJogar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.cmdJogar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cmdJogar.FlatAppearance.BorderSize = 0;
-            this.cmdJogar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.cmdJogar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.cmdJogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdJogar.Location = new System.Drawing.Point(359, 248);
-            this.cmdJogar.Margin = new System.Windows.Forms.Padding(2);
-            this.cmdJogar.Name = "cmdJogar";
-            this.cmdJogar.Size = new System.Drawing.Size(252, 115);
-            this.cmdJogar.TabIndex = 0;
-            this.cmdJogar.UseVisualStyleBackColor = false;
-            this.cmdJogar.Click += new System.EventHandler(this.cmdJogar_Click);
-            // 
-            // cmdSair
-            // 
-            this.cmdSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdSair.BackColor = System.Drawing.Color.Transparent;
-            this.cmdSair.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.btnsair;
-            this.cmdSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.cmdSair.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cmdSair.FlatAppearance.BorderSize = 0;
-            this.cmdSair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.cmdSair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.cmdSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdSair.Location = new System.Drawing.Point(566, 444);
-            this.cmdSair.Margin = new System.Windows.Forms.Padding(2);
-            this.cmdSair.Name = "cmdSair";
-            this.cmdSair.Size = new System.Drawing.Size(166, 81);
-            this.cmdSair.TabIndex = 1;
-            this.cmdSair.UseVisualStyleBackColor = false;
-            this.cmdSair.Click += new System.EventHandler(this.cmdSair_Click);
+            this.cmdCreditos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmdCreditos.BackColor = System.Drawing.Color.Transparent;
+            this.cmdCreditos.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.btnCredito;
+            this.cmdCreditos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.cmdCreditos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cmdCreditos.FlatAppearance.BorderSize = 0;
+            this.cmdCreditos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.cmdCreditos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.cmdCreditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmdCreditos.Location = new System.Drawing.Point(531, 377);
+            this.cmdCreditos.Margin = new System.Windows.Forms.Padding(2);
+            this.cmdCreditos.Name = "cmdCreditos";
+            this.cmdCreditos.Size = new System.Drawing.Size(166, 81);
+            this.cmdCreditos.TabIndex = 3;
+            this.cmdCreditos.UseVisualStyleBackColor = false;
+            this.cmdCreditos.Click += new System.EventHandler(this.cmdCreditos_Click);
             // 
             // cmdComoJogar
             // 
@@ -82,7 +64,7 @@
             this.cmdComoJogar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.cmdComoJogar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.cmdComoJogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdComoJogar.Location = new System.Drawing.Point(245, 444);
+            this.cmdComoJogar.Location = new System.Drawing.Point(160, 377);
             this.cmdComoJogar.Margin = new System.Windows.Forms.Padding(2);
             this.cmdComoJogar.Name = "cmdComoJogar";
             this.cmdComoJogar.Size = new System.Drawing.Size(166, 81);
@@ -90,13 +72,52 @@
             this.cmdComoJogar.UseVisualStyleBackColor = false;
             this.cmdComoJogar.Click += new System.EventHandler(this.cmdComoJogar_Click);
             // 
+            // cmdSair
+            // 
+            this.cmdSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmdSair.BackColor = System.Drawing.Color.Transparent;
+            this.cmdSair.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.btnsair;
+            this.cmdSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.cmdSair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cmdSair.FlatAppearance.BorderSize = 0;
+            this.cmdSair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.cmdSair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.cmdSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmdSair.Location = new System.Drawing.Point(654, 453);
+            this.cmdSair.Margin = new System.Windows.Forms.Padding(2);
+            this.cmdSair.Name = "cmdSair";
+            this.cmdSair.Size = new System.Drawing.Size(166, 81);
+            this.cmdSair.TabIndex = 1;
+            this.cmdSair.UseVisualStyleBackColor = false;
+            this.cmdSair.Click += new System.EventHandler(this.cmdSair_Click);
+            // 
+            // cmdJogar
+            // 
+            this.cmdJogar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmdJogar.BackColor = System.Drawing.Color.Transparent;
+            this.cmdJogar.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.btnjogar;
+            this.cmdJogar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.cmdJogar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cmdJogar.FlatAppearance.BorderSize = 0;
+            this.cmdJogar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.cmdJogar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.cmdJogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmdJogar.Location = new System.Drawing.Point(298, 258);
+            this.cmdJogar.Margin = new System.Windows.Forms.Padding(2);
+            this.cmdJogar.Name = "cmdJogar";
+            this.cmdJogar.Size = new System.Drawing.Size(252, 115);
+            this.cmdJogar.TabIndex = 0;
+            this.cmdJogar.UseVisualStyleBackColor = false;
+            this.cmdJogar.Click += new System.EventHandler(this.cmdJogar_Click);
+            // 
             // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.back;
+            this.BackgroundImage = global::Jogo_da_Memória.Properties.Resources.memorizado;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(842, 559);
+            this.Controls.Add(this.cmdCreditos);
             this.Controls.Add(this.cmdComoJogar);
             this.Controls.Add(this.cmdSair);
             this.Controls.Add(this.cmdJogar);
@@ -115,6 +136,7 @@
         private System.Windows.Forms.Button cmdJogar;
         private System.Windows.Forms.Button cmdSair;
         private System.Windows.Forms.Button cmdComoJogar;
+        private System.Windows.Forms.Button cmdCreditos;
     }
 }
 
