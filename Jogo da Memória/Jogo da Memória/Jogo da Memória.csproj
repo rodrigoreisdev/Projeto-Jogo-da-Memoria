@@ -70,6 +70,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmCreditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCreditos.Designer.cs">
+      <DependentUpon>FrmCreditos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEscolhaPersonagem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     <Compile Include="Personagem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCreditos.resx">
+      <DependentUpon>FrmCreditos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEscolhaPersonagem.resx">
       <DependentUpon>frmEscolhaPersonagem.cs</DependentUpon>
     </EmbeddedResource>
@@ -373,6 +382,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="imgs\Jorge_voce_consegue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCredito1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memorizado1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

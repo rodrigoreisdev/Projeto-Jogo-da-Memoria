@@ -20,7 +20,7 @@ namespace Jogo_da_Memória
         }
 
         private void cmdSair_Click(object sender, EventArgs e) {
-            this.Close();
+            Environment.Exit(1);
         }
 
         private void cmdComoJogar_Click(object sender, EventArgs e) {
@@ -41,6 +41,12 @@ namespace Jogo_da_Memória
         private void frmInicio_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void cmdCreditos_Click(object sender, EventArgs e)
+        {
+            FrmCreditos f = new FrmCreditos();
+            f.ShowDialog();
         }
     }
 }

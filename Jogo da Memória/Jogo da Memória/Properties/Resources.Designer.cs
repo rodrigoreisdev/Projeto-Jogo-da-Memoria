@@ -150,6 +150,16 @@ namespace Jogo_da_Memória.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnCredito {
+            get {
+                object obj = ResourceManager.GetObject("btnCredito", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnjogar {
             get {
                 object obj = ResourceManager.GetObject("btnjogar", resourceCulture);
@@ -353,6 +363,16 @@ namespace Jogo_da_Memória.Properties {
         internal static System.Drawing.Bitmap M {
             get {
                 object obj = ResourceManager.GetObject("M", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap memorizado {
+            get {
+                object obj = ResourceManager.GetObject("memorizado", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
